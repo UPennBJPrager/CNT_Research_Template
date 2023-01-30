@@ -5,4 +5,6 @@ The ultimate goal for this tree is to provide the basic structure that each stud
 
 The unit tests folder includes basic unit tests that should be included for pipeline development and code changes.
 
-CNT Tools is a submodule of the CNT repository, where lab wide code should live.
+CNT_research_tools is a submodule of the CNT repository, where lab wide code should live.
+
+sample_data is for anonymized sample data that can be used publicly to test code against. PHI data should not be uploaded to this directort under any circumstances.
