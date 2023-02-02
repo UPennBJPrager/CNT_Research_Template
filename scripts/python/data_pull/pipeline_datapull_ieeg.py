@@ -1,6 +1,11 @@
+# Add submodule repository tools to the current opath
+import sys
+sys.path.append('../../../CNT_research_tools/python/tools')
+
 import getpass
 import argparse
 import check_data_repository as CDR
+from get_iEEG_data import get_iEEG_data
 
 def main():
     """
@@ -28,22 +33,18 @@ def main():
 
     # Check if data exists
     if CDR.check_ieeg_data(ifile):
-        
-        # As of 020223, return dummy dataframe object of requested data. Ensure check once paths established
-        import get_dummy_data as GDD
-        tmp = GDD.ieeg()
-        return tmp
+        endtime = args.start+args.duration
+        DF,fs   = get_iEEG_data(args.user, args.password, args.dataset, args.start, args.duration)
+        return DF,fs
     else:
 
         if not args.password:
             args.password = getpass.getpass()
         
-        # As of 020223, return dummy dataframe object of requested data. Ensure check once paths established
-        import get_dummy_data as GDD
-        tmp = GDD.ieeg()
-        return tmp
-
+        endtime = args.start+args.duration 
+        DF,fs   = get_iEEG_data(args.user, args.password, args.dataset, args.start, endtime)
+        return DF,fs
 
 if __name__ == '__main__':
     
-    DF = main()
+    DF,fs = main()
