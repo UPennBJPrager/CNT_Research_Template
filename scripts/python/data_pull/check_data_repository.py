@@ -19,7 +19,6 @@ def check_ieeg_data(infile,data_pointer_loc='../../../data_pointers'):
     
     filelist = glob(data_pointer_loc+'/**/*pickle',recursive=True)
     filelist = [ifile.split('/')[-1] for ifile in filelist]
-    print(filelist)
     
     if infile in filelist:
         return True
@@ -45,7 +44,6 @@ def check_image_data(infile,data_pointer_loc='../../../data_pointers'):
     
     filelist = glob(data_pointer_loc+'/**/*fits',recursive=True)
     filelist = [ifile.split('/')[-1] for ifile in filelist]
-    print(filelist)
     
     if infile in filelist:
         return True
@@ -71,7 +69,6 @@ def check_applewatch_data(infile,data_pointer_loc='../../../data_pointers'):
     
     filelist = glob(data_pointer_loc+'/**/*json',recursive=True)
     filelist = [ifile.split('/')[-1] for ifile in filelist]
-    print(filelist)
     
     if infile in filelist:
         return True
