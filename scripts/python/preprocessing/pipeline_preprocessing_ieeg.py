@@ -2,9 +2,10 @@
 import sys
 sys.path.append('../../../CNT_research_tools/python/tools')
 
-# User requested tools for preprocessing
+# User requested tools for feature selection
+import clean_labels as CL
 
-def main(ieeg_obj,samp_freq):
+def main(ieeg_obj,preprocesses=None):
     """
     Create a dictionary with feature selection for ieeg data. 
 
@@ -12,11 +13,11 @@ def main(ieeg_obj,samp_freq):
     ----------
     iieeg_obj : array or dataframe structure
         Placeholder until example workflow is available.
-    features : list, optional
-        Feature selection. Currently available:
-            LL = Line Length,
-            BP = Band Power
-        The default is None. If None, all features. Case Sensitive.
+    preprocesses : list, optional
+        Preprocessing steps. Currently available:
+            CL = Clean labels
+        The default is None. If None, all preprocessing steps. Case Sensitive.
+        Steps performed in order of provided list.
     channels : list, optional
         Channels to analyze.
         The default is None. If None, all channels.
@@ -26,8 +27,18 @@ def main(ieeg_obj,samp_freq):
     Dictionary with requested features.
 
     """
-
-    return none
+    
+    # Setup variables to go through functions in order
+    if channels == None:
+        preprocessing_steps = ['CL']
+    else:
+        preprocessing_steps = preprocesses
+    
+    # Loop over preprocessing steps
+    for ival in preprocesses:
+        if ival == 'CL':
+            ieeg_obj = ieeg_obj.copy()
+    return ieeg_obj
 
 if __name__ == '__main__':
     
