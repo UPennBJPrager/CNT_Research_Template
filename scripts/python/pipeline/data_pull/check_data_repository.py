@@ -1,6 +1,7 @@
+import pandas as PD
 from glob import glob
 
-def check_ieeg_data(infile,data_pointer_loc='../../../data_pointers'):
+def check_ieeg_data(infile,data_pointer_loc='../../../../data_pointers/ieeg/cached_ieeg_data.csv'):
     """
     Determines if the user requested ieeg file already exists in Lief.
 
@@ -9,7 +10,7 @@ def check_ieeg_data(infile,data_pointer_loc='../../../data_pointers'):
     infile : STR
         User provided identifier of the file to be downloaded.
     data_pointer_loc : STR, optional
-        Absolute or relative path to data pointers. The default is '../../../data_pointers'.
+        Absolute or relative path to data pointers. The default is '../../../data_pointers/cached_ieeg_data.csv'.
 
     Returns
     -------
@@ -17,8 +18,8 @@ def check_ieeg_data(infile,data_pointer_loc='../../../data_pointers'):
 
     """
     
-    filelist = glob(data_pointer_loc+'/**/*pickle',recursive=True)
-    filelist = [ifile.split('/')[-1] for ifile in filelist]
+    pointer_DF = PD.read_csv(data_pointer_loc)
+    filelist   = pointer_DF['filepath'].values
     
     if infile in filelist:
         return True
