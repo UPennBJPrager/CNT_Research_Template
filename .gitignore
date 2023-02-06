@@ -1,2 +1,3 @@
 /user_data/**
-/user_data/\!read_me!.txt
+
+!/user_data/README.txt
