@@ -7,3 +7,6 @@
 [submodule "ieegpy"]
 	path = ieegpy
 	url = https://github.com/ieeg-portal/ieegpy.git
+[submodule "epycom"]
+	path = epycom
+	url = https://gitlab.com/icrc-bme/epycom.git

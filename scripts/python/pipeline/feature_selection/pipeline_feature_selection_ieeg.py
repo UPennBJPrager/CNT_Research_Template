@@ -23,6 +23,8 @@ def main(DF,samp_freq,features=None,channels=None,bp_freq_min=60,bp_freq_max=120
         Feature selection. Currently available:
             LL = Line Length,
             BP = Band Power
+            T0 = Start time of seizure
+            Spike
         The default is None. If None, all features. Case Sensitive.
     channels : list, optional
         Channels to analyze.
