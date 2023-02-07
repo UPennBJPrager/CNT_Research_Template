@@ -9,6 +9,8 @@ for dirs in glob.glob("../../pipeline/**"):
 # User library import
 import pipeline_datapull_ieeg as PDI
 import dataframe_properties_check as DPC
+import pipeline_preprocessing_ieeg as PPI
+import pipeline_feature_selection_ieeg as PFSI
 
 def main():
     """
@@ -35,9 +37,17 @@ def main():
     DF,fs = PDI.main(args)
     
     # Data quality check
-    quality_flag = DPC.main(DF,16,verbose=args.verbose)
+    qflag = DPC.main(DF,16,verbose=args.verbose)
+    if qflag and args.verbose:
+        print("All data quality checks came back True. Proceeding to next step.")
     
-    return DF,fs
+    # Data preprocessing
+    DF = PPI.main(DF)
+    
+    # Feature selection
+    feature_dict = PFSI.main(DF,fs)
+    
+    return DF,fs,feature_dict
 
 if __name__ == '__main__':
-    DF,fs = main()
+    DF,fs,feature_dict = main()

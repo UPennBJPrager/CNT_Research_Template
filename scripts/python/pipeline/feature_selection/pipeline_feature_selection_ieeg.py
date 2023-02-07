@@ -11,14 +11,14 @@ import bandpower as BP
 import line_length as LL
 
 
-def main(ieeg_obj,samp_freq,features=None,channels=None,bp_freq_min=60,bp_freq_max=120):
+def main(DF,samp_freq,features=None,channels=None,bp_freq_min=60,bp_freq_max=120):
     """
     Create a dictionary with feature selection for ieeg data. 
 
     Parameters
     ----------
-    iieeg_obj : array or dataframe structure
-        Placeholder until example workflow is available.
+    DF : dataframe structure
+        Dataframe to derive features from.
     features : list, optional
         Feature selection. Currently available:
             LL = Line Length,
@@ -37,7 +37,7 @@ def main(ieeg_obj,samp_freq,features=None,channels=None,bp_freq_min=60,bp_freq_m
     # Initialize variables
     feature_dict = {}
     if channels == None:
-        channel_list = ieeg_obj.columns
+        channel_list = DF.columns
     else:
         channel_list = channels
     if features == None:
@@ -49,11 +49,11 @@ def main(ieeg_obj,samp_freq,features=None,channels=None,bp_freq_min=60,bp_freq_m
     if 'LL' in feature_list:
         feature_dict['LL'] = {}
         for ichannel in channel_list:
-            feature_dict['LL'][ichannel] = LL.line_length(ieeg_obj[ichannel].values)
+            feature_dict['LL'][ichannel] = LL.line_length(DF[ichannel].values)
     if 'BP' in feature_list:
         feature_dict['BP'] = {}
         for ichannel in channel_list:
-            feature_dict['BP'][ichannel] = BP.bandpower(ieeg_obj[ichannel].values,samp_freq,[bp_freq_min,bp_freq_max])    
+            feature_dict['BP'][ichannel] = BP.bandpower(DF[ichannel].values,samp_freq,[bp_freq_min,bp_freq_max])    
     return feature_dict
 
 if __name__ == '__main__':

@@ -34,11 +34,13 @@ def main(DF,N,M=-1,dtype='float64',verbose=True):
     """
     
     # Run through all tests
-    CLS = AUT.TestArrayProperties(DF,verbose)
-    CLS.test_dim(M,N)
-    CLS.test_type(dtype)
-    CLS.test_inf()
-    CLS.test_nan()
+    qflag  = True
+    CLS    = AUT.TestArrayProperties(DF,verbose)
+    qflag *= CLS.test_dim(M,N)
+    qflag *= CLS.test_type(dtype)
+    qflag *= CLS.test_inf()
+    qflag *= CLS.test_nan()
+    return qflag
 
 if __name__ == '__main__':
-    main()
+    qflag = main()

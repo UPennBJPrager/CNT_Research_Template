@@ -5,14 +5,14 @@ sys.path.append('../../../CNT_research_tools/python/tools')
 # User requested tools for feature selection
 import clean_labels as CL
 
-def main(ieeg_obj,preprocesses=None):
+def main(DF,preprocesses=None):
     """
     Create a dictionary with feature selection for ieeg data. 
 
     Parameters
     ----------
-    iieeg_obj : array or dataframe structure
-        Placeholder until example workflow is available.
+    Dataframe : dataframe structure
+        Dataframe with channel names as column headers.
     preprocesses : list, optional
         Preprocessing steps. Currently available:
             CL = Clean labels
@@ -29,16 +29,17 @@ def main(ieeg_obj,preprocesses=None):
     """
     
     # Setup variables to go through functions in order
-    if channels == None:
+    if preprocesses == None:
         preprocessing_steps = ['CL']
     else:
         preprocessing_steps = preprocesses
     
     # Loop over preprocessing steps
-    for ival in preprocesses:
+    for ival in preprocessing_steps:
         if ival == 'CL':
-            ieeg_obj = ieeg_obj.copy()
-    return ieeg_obj
+            #ieeg_obj = ieeg_obj.copy()
+            DF.columns = CL.clean_labels(DF)
+    return DF
 
 if __name__ == '__main__':
     
