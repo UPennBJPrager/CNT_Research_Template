@@ -1,16 +1,21 @@
-# Add submodule repository tools to the current opath
-import sys
-sys.path.append('../../../../CNT_research_tools/python/tools')
-
+# Standard library import
 import os
+import sys
 import pickle
 import getpass
 import argparse
 import subprocess
+
+# Add submodule repository tools to the current opath
+toolpath = '../../../../CNT_research_tools/python/tools'
+if toolpath not in sys.path:
+    sys.path.append(toolpath)
+
+# User library import
 import check_data_repository as CDR
 from get_iEEG_data import get_iEEG_data
 
-def main(lief_parent_dir="/cache/dev/bjprager/data/",user_dir='../../../../user_data/'):
+def main(args,lief_parent_dir="/cache/dev/bjprager/data/",user_dir='../../../../user_data/'):
     """
     Checks if data requested already exists in user data.
     If not, check if data is in lief cache. If so, return commands to download from lief.
@@ -22,16 +27,6 @@ def main(lief_parent_dir="/cache/dev/bjprager/data/",user_dir='../../../../user_
 
     """
     
-    # Command line options needed to obtain data.
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-u', '--user', required=True, help='username')
-    parser.add_argument('-p', '--password', help='password (will be prompted if omitted)')
-    parser.add_argument('--dataset', help='dataset name')
-    parser.add_argument('--start', type=int, help='start offset in usec')
-    parser.add_argument('--duration', type=int, help='number of usec to request')
-    parser.add_argument('--local_path', default=None, type=str, help='Path to local data to ingest manually. Default=None.')
-    args = parser.parse_args()
-
     # Figure out expected filename based on parameters
     if args.local_path == None:
         localfile = '%s%s-%d_%d/data.pickle' %(user_dir,args.dataset,args.start,args.duration)
@@ -82,5 +77,15 @@ def main(lief_parent_dir="/cache/dev/bjprager/data/",user_dir='../../../../user_
         return DF,fs
 
 if __name__ == '__main__':
+
+    # Command line options needed to obtain data.
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-u', '--user', required=True, help='username')
+    parser.add_argument('-p', '--password', help='password (will be prompted if omitted)')
+    parser.add_argument('--dataset', help='dataset name')
+    parser.add_argument('--start', type=int, help='start offset in usec')
+    parser.add_argument('--duration', type=int, help='number of usec to request')
+    parser.add_argument('--local_path', default=None, type=str, help='Path to local data to ingest manually. Default=None.')
+    args = parser.parse_args()
     
     DF,fs = main()

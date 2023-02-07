@@ -1,10 +1,15 @@
-# Add submodule repository tools to the current opath
+# Standard library imports
 import sys
-sys.path.append('../../../CNT_research_tools/python/tools')
 
+# Add submodule repository tools to the current opath
+toolpath = '../../../../CNT_research_tools/python/tools'
+if toolpath not in sys.path:
+    sys.path.append(toolpath)
+ 
 # User requested tools for feature selection
 import bandpower as BP
 import line_length as LL
+
 
 def main(ieeg_obj,samp_freq,features=None,channels=None,bp_freq_min=60,bp_freq_max=120):
     """

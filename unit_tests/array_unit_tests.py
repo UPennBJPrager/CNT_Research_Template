@@ -3,8 +3,9 @@ import pandas as PD
 from tabulate import tabulate
 
 class TestArrayProperties:
-    def __init__(self,in_Arr):
-        self.in_Arr = in_Arr
+    def __init__(self,in_Arr,verbose=True):
+        self.in_Arr  = in_Arr
+        self.verbose = verbose
     
     def test_dim(self,M,N):
         """
@@ -13,7 +14,7 @@ class TestArrayProperties:
         Parameters
         ----------
         M : Integer
-            Expected number of rows.
+            Expected number of rows. -1 indicates that we should skip this check.
         N : Integer
             Exepected number of columns.
 
@@ -22,12 +23,14 @@ class TestArrayProperties:
         Assertion.
 
         """
-
+        if M==-1:M=self.in_Arr.shape[0]
         try:
             assert(self.in_Arr.shape==(M,N))
-            print("Array Shape Correct.")
+            if self.verbose: print("Array Shape Correct.")
+            return True
         except AssertionError:
             print("Input Array is of shape (%d,%d). Expected shape is (%d,%d)." %(self.in_Arr.shape[0],self.in_Arr.shape[1],M,N))
+            return False
             
     def test_type(self,dtype):
         """
@@ -47,15 +50,19 @@ class TestArrayProperties:
         if isinstance(self.in_Arr,np.ndarray):
             try:
                 assert(self.in_Arr.dtype==dtype)
-                print("Array Type Correct.")
+                if self.verbose: print("Array Type Correct.")
+                return True
             except AssertionError:
                 print("Input Array is of type %s. Expected type is %s." %(self.in_Arr.dtype,dtype))
+                return False
         elif isinstance(self.in_Arr,PD.DataFrame):
             try:
                 assert((self.in_Arr.dtypes.values==dtype).all())
-                print("Dataframe Type Correct.")
+                if self.verbose: print("Dataframe Type Correct.")
+                return True
             except AssertionError:
                 print("Dataframe has a mismatched type to expected input.")
+                return False
             
     def test_inf(self):
         """
@@ -66,12 +73,24 @@ class TestArrayProperties:
         None.
 
         """
-        
-        try:
-            assert(np.isinf(self.in_Arr).any()==False)
-            print("No INFs found.")
-        except AssertionError:
-            print("Infinity found within input array.")
+
+        if isinstance(self.in_Arr,np.ndarray):        
+            try:
+                assert(np.isinf(self.in_Arr).any()==False)
+                if self.verbose: print("No INFs found.")
+                return True
+            except AssertionError:
+                print("Infinity found within input array.")
+                return False
+        elif isinstance(self.in_Arr,PD.DataFrame):
+            try:
+                assert(np.isinf(self.in_Arr.values).any()==False)
+                if self.verbose: print("No INFs found.")
+                return True
+            except AssertionError:
+                print("Infinity found within input array.")
+                return False
+
 
     def test_nan(self):
         """
@@ -83,11 +102,22 @@ class TestArrayProperties:
 
         """
         
-        try:
-            assert(np.isnan(self.in_Arr).any()==False)
-            print("No NaNs found.")
-        except AssertionError:
-            print("NaN found within input array.")           
+        if isinstance(self.in_Arr,np.ndarray):        
+            try:
+                assert(np.isnan(self.in_Arr).any()==False)
+                if self.verbose: print("No NaNs found.")
+                return True
+            except AssertionError:
+                print("NaNs found within input array.")
+                return False
+        elif isinstance(self.in_Arr,PD.DataFrame):
+            try:
+                assert(np.isnan(self.in_Arr.values).any()==False)
+                if self.verbose: print("No NaNs found.")
+                return True
+            except AssertionError:
+                print("NaNs found within input array.")
+                return False
             
 
 class TestArraySimilarity:
