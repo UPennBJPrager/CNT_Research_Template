@@ -8,3 +8,6 @@ The unit tests folder includes basic unit tests that should be included for pipe
 CNT_research_tools is a submodule of the CNT repository, where lab wide code should live.
 
 sample_data is for anonymized sample data that can be used publicly to test code against. PHI data should not be uploaded to this directort under any circumstances.
+
+Link to epycom repository (subgroup to gitlab projects does not produce links in git gui for some reason) 
+https://gitlab.com/icrc-bme/epycom/-/tree/master/epycom
