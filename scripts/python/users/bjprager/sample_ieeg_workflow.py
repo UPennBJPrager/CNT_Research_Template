@@ -1,10 +1,11 @@
 import sys
-import glob
 import argparse
 
-for dirs in glob.glob("../../pipeline/**"):
-    if dirs not in sys.path:
-        sys.path.append(dirs)
+# Add pipeline to the current path
+utilpath = '../../util'
+if  utilpath not in sys.path:sys.path.append(utilpath)
+import relative_import as RI
+RI.main("../../pipeline/")
         
 # User library import
 import pipeline_datapull_ieeg as PDI

@@ -2,12 +2,12 @@
 import os
 import sys
 
-# Add repository tools to the current path
-testpath = '../../../../unit_tests'
-for idir in os.walk(testpath):
-    if '__pycache' not in idir[0]:
-        if idir[0] not in sys.path:
-            sys.path.append(idir[0])
+# Add submodule repository tools to the current path
+utilpath = '../../util'
+if  utilpath not in sys.path:sys.path.append(utilpath)
+import relative_import as RI
+RI.main('../../../../unit_tests')
+
 
 # User library import
 import array_unit_tests as AUT 

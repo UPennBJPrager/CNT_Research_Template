@@ -6,10 +6,11 @@ import getpass
 import argparse
 import subprocess
 
-# Add submodule repository tools to the current opath
-toolpath = '../../../../CNT_research_tools/python/tools'
-if toolpath not in sys.path:
-    sys.path.append(toolpath)
+# Add submodule repository tools to the current path
+utilpath = '../../util'
+if  utilpath not in sys.path:sys.path.append(utilpath)
+import relative_import as RI
+RI.main('../../../../CNT_research_tools/python/tools')
 
 # User library import
 import check_data_repository as CDR

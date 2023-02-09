@@ -1,10 +1,12 @@
 # Standard library import
 import sys
 
-# Add submodule repository tools to the current opath
-toolpath = '../../../../CNT_research_tools/python/tools'
-if toolpath not in sys.path:
-    sys.path.append(toolpath)
+# Add submodule repository tools to the current path
+utilpath = '../../util'
+if  utilpath not in sys.path:sys.path.append(utilpath)
+import relative_import as RI
+RI.main('../../../../CNT_research_tools/python/tools')
+RI.main('../../../../epycom/epycom/')
 
 # User requested tools for feature selection
 import clean_labels as CL
