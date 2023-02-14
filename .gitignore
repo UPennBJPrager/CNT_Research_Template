@@ -1,6 +1,6 @@
 /user_data/**
 **/private/**
-/core_libraries/**build**
+**/build/**
 **.DS_Store**
 
 !/user_data/README.txt
