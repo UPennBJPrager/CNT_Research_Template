@@ -1,3 +1,9 @@
+CNT Research Repository Template
+================
+[![PyPI Latest Release]
+
+Python client and command line tool for Pennsieve (pennsieve2).
+
 # CNT_Development
 Development for a template repository for CNT lab. 
 
