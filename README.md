@@ -11,6 +11,13 @@ In order to use this repository, you must have access to either Python or Matlab
 
 We also highly recommend the use of a virtual environment, conda environment, or similar software to manage distributions. Examples for their use can be found in the documentation.
 
+# Installation
+
+## Python
+For python packages
+
+# Contributions
+Temp
 
 # Submodules
 CNT_research_tools is a submodule of the CNT repository, where lab wide code should live.
