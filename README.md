@@ -39,7 +39,9 @@ This template is intended to be used as both an environment and a simple wrapper
 
 ### Conda
 
-conda env
+#### Creation
+conda create --name myenv **where myenv is the name of the environment you wish to create**
+
 
 ### Virtual Environment
 
