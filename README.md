@@ -28,7 +28,7 @@ where foo is the name of the library of interest.
 
 ## Matlab
 
-:man_shrugging:
+:woman_shrugging:
 
 # Documentation
 This template is intended to be used as both an environment and a simple wrapper for research code. Before beginning, we highly recommend that a virtual environment is made for each project to ensure dependencies are properly referenced and code can be reproduced across numerous systems. Examples for creating virtual environments is provided below.
@@ -46,7 +46,7 @@ conda create --name myenv **where myenv is the name of the environment you wish 
 conda env list
 
 #### Activating Environment
-conda activate myenv **where myenv is the name of the environment you wish to create**
+conda activate myenv **where myenv is the name of the environment you wish to activate**
 
 #### Deactivating an environment
 conda deactivate
@@ -56,7 +56,25 @@ For more information, please read: https://conda.io/projects/conda/en/latest/use
 
 ### Virtual Environment
 
-virtualenv
+First make sure you have venv installed. If not, you can pip install it as follows: pip install venv
+
+#### Creation
+python3 -m venv /path/to/new/virtual/environment
+
+#### Listing environments
+*run* lsvirtualenv
+
+You may need to install virutalenvwrapper to use this command. ( pip install virtualenvwrapper. ) If it doesn't populate to your path, check the package directory for the executable.
+
+#### Activating Environment
+source /path/to/venv/bin/activate
+
+#### Deactivating an environment
+*type* deactivate *in your shell*
+
+## Matlab
+
+🤷‍♂️
 
 # Submodules
 CNT_research_tools is a submodule of the CNT repository, where lab wide code should live.
