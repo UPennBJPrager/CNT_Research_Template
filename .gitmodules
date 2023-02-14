@@ -22,3 +22,6 @@
 [submodule "core_libraries/submodules/bctpy"]
 	path = core_libraries/submodules/bctpy
 	url = https://github.com/aestrivex/bctpy.git
+[submodule "core_libraries/submodules/RNS_processing_toolbox"]
+	path = core_libraries/submodules/RNS_processing_toolbox
+	url = https://github.com/penn-cnt/RNS_processing_toolbox
