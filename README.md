@@ -17,8 +17,11 @@ We also highly recommend the use of a virtual environment, conda environment, or
 For python packages, python wheels and tarballs can be found in: CNT_Development/core_libraries/python/.
 
 To install, run:
+
 pip install foo.whl
+
 *or*
+
 foo.tar.gz
 
 where foo is the name of the library of interest.
