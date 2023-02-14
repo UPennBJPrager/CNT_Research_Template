@@ -6,7 +6,7 @@
 
 CNT Research Repository Template
 ================
-- Code coverage percentage: ![coverage](https://img.shields.io/badge/coverage-80%25-yellowgreen)
+- ![coverage](https://img.shields.io/badge/coverage-80%25-yellowgreen)
 
 Python client and command line tool for Pennsieve (pennsieve2).
 
