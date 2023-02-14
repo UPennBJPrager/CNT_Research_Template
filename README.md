@@ -2,7 +2,7 @@ CNT Research Repository Template
 ================
 ![version](https://img.shields.io/badge/version-0.2.1-blue)
 ![pip](https://img.shields.io/pypi/v/pip.svg)
-![pypi](https://img.shields.io/pypi/pyversions/)
+![https://img.shields.io/pypi/pyversions/](https://img.shields.io/pypi/pyversions/4)
 
 # Prerequisites
 In order to use this repository, you must have access to either Python or Matlab. 
