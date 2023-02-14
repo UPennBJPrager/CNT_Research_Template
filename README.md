@@ -1,9 +1,8 @@
 CNT Research Repository Template
 ================
 ![version](https://img.shields.io/badge/version-0.2.1-blue)
-![python](https://img.shields.io/badge/version-0.2.1-blue)
-
-Python client and command line tool for Pennsieve (pennsieve2).
+.. image:: https://img.shields.io/pypi/v/pip.svg
+   :target: https://pypi.org/project/pip/
 
 # CNT_Development
 Development for a template repository for CNT lab. 
