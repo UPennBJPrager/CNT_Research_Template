@@ -1,7 +1,7 @@
 CNT Research Repository Template
 ================
 ![version](https://img.shields.io/badge/version-0.2.1-blue)
-![https://img.shields.io/pypi/v/pip.svg](https://pypi.org/project/pip/)
+![pip](https://img.shields.io/pypi/v/pip.svg)
 
 # CNT_Development
 Development for a template repository for CNT lab. 
