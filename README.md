@@ -42,6 +42,17 @@ This template is intended to be used as both an environment and a simple wrapper
 #### Creation
 conda create --name myenv **where myenv is the name of the environment you wish to create**
 
+#### Listing environments
+conda env list
+
+#### Activating Environment
+conda activate myenv **where myenv is the name of the environment you wish to create**
+
+#### Deactivating an environment
+conda deactivate
+
+#### More information
+For more information, please read: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
 
 ### Virtual Environment
 
