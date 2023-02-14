@@ -1,6 +1,6 @@
 CNT Research Repository Template
 ================
-[![PyPI Latest Release]
+[![PyPI Latest Release]]
 
 Python client and command line tool for Pennsieve (pennsieve2).
 
