@@ -20,9 +20,9 @@ To install, run:
 
 pip install foo.whl
 
-*or*
+**or**
 
-foo.tar.gz
+pip install foo.tar.gz
 
 where foo is the name of the library of interest.
 
