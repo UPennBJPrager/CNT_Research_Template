@@ -1,6 +1,12 @@
+<p align="center">
+    <a href="https://coveralls.io/github/badges/shields">
+        <img src="https://img.shields.io/coveralls/github/badges/shields"
+            alt="coverage"></a>
+</p>
+
 CNT Research Repository Template
 ================
-[![PyPI Latest Release](https://pypi.org/static/images/logo-small.2a411bc6.svg)](https://pypi.org/)
+- Code coverage percentage: ![coverage](https://img.shields.io/badge/coverage-80%25-yellowgreen)
 
 Python client and command line tool for Pennsieve (pennsieve2).
 
