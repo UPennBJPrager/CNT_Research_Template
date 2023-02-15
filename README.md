@@ -36,31 +36,31 @@ where foo is the name of the library of interest.
 This template is intended to be used as both an environment and a simple wrapper for research code. Before beginning, we highly recommend that a virtual environment is made for each project to ensure dependencies are properly referenced and code can be reproduced across numerous systems. Examples for creating virtual environments is provided below.
 
 ## Repository Structure
-./. 
-├── core_libraries. 
-│   ├── python. 
-│   └── submodules. 
-├── data_pointers. 
-│   ├── active_wear. 
-│   ├── ieeg. 
-│   └── images. 
-├── examples  
-│   └── environments. 
-├── reference_data. 
-│   ├── ieeg. 
-│   └── imaging. 
-├── sample_data. 
-│   ├── active_wear. 
-│   ├── ieeg. 
-│   └── imaging. 
-├── scripts. 
-│   ├── matlab. 
-│   └── python. 
-├── unit_tests. 
-│   ├── __pycache__. 
-│   ├── machine_level. 
-│   └── model_level. 
-└── user_data. 
+./<br />
+├── core_libraries<br /> 
+│   ├── python<br />
+│   └── submodules<br />
+├── data_pointers<br />
+│   ├── active_wear<br />
+│   ├── ieeg<br />
+│   └── images<br />
+├── examples<br />
+│   └── environments<br />
+├── reference_data<br />
+│   ├── ieeg<br />
+│   └── imaging<br />
+├── sample_data<br />
+│   ├── active_wear<br />
+│   ├── ieeg<br />
+│   └── imaging<br />
+├── scripts<br />
+│   ├── matlab<br />
+│   └── python<br />
+├── unit_tests<br />
+│   ├── __pycache__<br /> 
+│   ├── machine_level<br />
+│   └── model_level<br />
+└── user_data<br />
 
 # Virtual Environments
 
