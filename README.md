@@ -73,13 +73,15 @@ This folder is meant to store user data. Data in this repository is private by d
 where myenv is the name of the environment you wish to create.
 
 #### Listing environments
-conda env list
+> conda env list
 
 #### Activating Environment
-conda activate myenv **where myenv is the name of the environment you wish to activate**
+> conda activate myenv
+
+where myenv is the name of the environment you wish to activate.
 
 #### Deactivating an environment
-conda deactivate
+> conda deactivate
 
 #### More information
 For more information, please read: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
@@ -89,18 +91,20 @@ For more information, please read: https://conda.io/projects/conda/en/latest/use
 First make sure you have venv installed. If not, you can pip install it as follows: pip install venv
 
 #### Creation
-python3 -m venv /path/to/new/virtual/environment
+> python3 -m venv /path/to/new/virtual/environment
 
 #### Listing environments
-*run* lsvirtualenv
+> lsvirtualenv
 
 You may need to install virutalenvwrapper to use this command. ( pip install virtualenvwrapper. ) If it doesn't populate to your path, check the package directory for the executable.
 
 #### Activating Environment
-source /path/to/venv/bin/activate
+> source /path/to/venv/bin/activate
 
 #### Deactivating an environment
-*type* deactivate *in your shell*
+> deactivate
+
+(Type this command in your shell.)
 
 ## Matlab
 
