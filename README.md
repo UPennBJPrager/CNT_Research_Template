@@ -41,19 +41,25 @@ This template is intended to be used as both an environment and a simple wrapper
 This folder contains the submodules and build files that make up the core libraries used for lab-wide projects.
 
 ### data_pointers
-This folder contains pointers to data contained on Borel and Lief. Downloads reference these data pointers to prevent duplication before 
+This folder contains pointers to data contained on Borel and Lief. Data requests should reference these data pointers to prevent duplication before downloading new data.
 
 ### examples
+This folder contains example python and matlab scripts for using common libraries and environments.
 
 ### reference_data
+This folder contains data that can be used for building targets or conducting unit tests.
 
 ### sample_data
+This folder contains sample data that might be used in any of the lab-wide projects.
 
 ### scripts
+This folder contains user-defined scripts.
 
 ### unit_tests
+This folder contains unit tests for validating new/altered code at both the machine level and model level.
 
 ### user_data
+This folder is meant to store user data. Data in this repository is private by default and will not be uploaded to public repositories.
 
 # Virtual Environments
 
