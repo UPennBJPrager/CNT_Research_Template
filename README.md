@@ -38,9 +38,10 @@ This template is intended to be used as both an environment and a simple wrapper
 ## Repository Structure
 
 ### core_libraries
-This folder contains
+This folder contains the submodules and build files that make up the core libraries used for lab-wide projects.
 
 ### data_pointers
+This folder contains pointers to data contained on Borel and Lief. Downloads reference these data pointers to prevent duplication before 
 
 ### examples
 
