@@ -13,8 +13,6 @@ We also highly recommend the use of a virtual environment, conda environment, or
 
 # Installation
 
-This repository is not designed to be a package in and of itself, but rather is an environment for CNT researchers to work within. By using this environment, your code can be easily shared and reviewed.
-
 In order to install any of the common library code, we provide instructions for both Python and Matlab below.
 
 ## Python
