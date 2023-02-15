@@ -24,7 +24,7 @@ To install, run:
 
 **or**
 
-pip install foo.tar.gz
+> pip install foo.tar.gz
 
 where foo is the name of the library of interest.
 
@@ -68,7 +68,9 @@ This folder is meant to store user data. Data in this repository is private by d
 ### Conda
 
 #### Creation
-conda create --name myenv **where myenv is the name of the environment you wish to create**
+> conda create --name myenv
+
+where myenv is the name of the environment you wish to create.
 
 #### Listing environments
 conda env list
