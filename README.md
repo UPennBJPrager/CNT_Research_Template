@@ -36,31 +36,23 @@ where foo is the name of the library of interest.
 This template is intended to be used as both an environment and a simple wrapper for research code. Before beginning, we highly recommend that a virtual environment is made for each project to ensure dependencies are properly referenced and code can be reproduced across numerous systems. Examples for creating virtual environments is provided below.
 
 ## Repository Structure
-./
-* core_libraries
-  * python
-  * submodules
-* data_pointers
-  * active_wear
-  * ieeg
-  * images
-* examples
-  * environments
-* reference_data
-  * ieeg
-  * imaging
-* sample_data
-  * active_wear
-  * ieeg
-  * imaging
-* scripts
-  * matlab
-  * python
-* unit_tests
-  * __pycache__ 
-  * machine_level
-  * model_level
-* user_data
+
+### core_libraries
+This folder contains
+
+### data_pointers
+
+### examples
+
+### reference_data
+
+### sample_data
+
+### scripts
+
+### unit_tests
+
+### user_data
 
 # Virtual Environments
 
