@@ -44,23 +44,23 @@ This template is intended to be used as both an environment and a simple wrapper
   * active_wear
   * ieeg
   * images
-├── examples
-│   └── environments
-├── reference_data
-│   ├── ieeg
-│   └── imaging
-├── sample_data
-│   ├── active_wear
-│   ├── ieeg
-│   └── imaging
-├── scripts
-│   ├── matlab
-│   └── python
-├── unit_tests
-│   ├── __pycache__ 
-│   ├── machine_level
-│   └── model_level
-└── user_data
+* examples
+  * environments
+* reference_data
+  * ieeg
+  * imaging
+* sample_data
+  * active_wear
+  * ieeg
+  * imaging
+* scripts
+  * matlab
+  * python
+* unit_tests
+  * __pycache__ 
+  * machine_level
+  * model_level
+* user_data
 
 # Virtual Environments
 
