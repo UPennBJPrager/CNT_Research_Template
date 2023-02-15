@@ -20,7 +20,7 @@ For python packages, python wheels and tarballs can be found in: CNT_Development
 
 To install, run:
 
-pip install foo.whl
+> pip install foo.whl
 
 **or**
 
