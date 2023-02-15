@@ -88,6 +88,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 # Contact Us
 Any questions should be directed to the data science team. Contact information is provided below:
-![Brian Prager](bjprager@seas.upenn.edu)
-![Joshua Asuncion](asuncion@seas.upenn.edu)
+
+[Brian Prager](mailto:bjprager@seas.upenn.edu)
+
+[Joshua Asuncion](mailto:asuncion@seas.upenn.edu)
 
