@@ -35,6 +35,9 @@ where foo is the name of the library of interest.
 # Documentation
 This template is intended to be used as both an environment and a simple wrapper for research code. Before beginning, we highly recommend that a virtual environment is made for each project to ensure dependencies are properly referenced and code can be reproduced across numerous systems. Examples for creating virtual environments is provided below.
 
+## Repository Structure
+Lorem
+
 # Virtual Environments
 
 ## Python
