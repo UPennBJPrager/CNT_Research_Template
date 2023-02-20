@@ -2,5 +2,7 @@
 **/private/**
 /core_libraries/build/**
 **.DS_Store**
+/scripts/python/users/**
 
 !/user_data/README.txt
+!/scripts/python/users/README.txt
