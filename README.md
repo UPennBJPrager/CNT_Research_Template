@@ -67,6 +67,13 @@ This folder is meant to store user data. Data in this repository is private by d
 
 ### Conda
 
+We recommend using the pre-built environment files provided to start your project. These files can be found in the following subfolders: core_libraries/python/*/*yml and can be installed using the following command:
+> conda env create -f foo.yml
+
+where foo is the name of the environment.
+
+For those who wish to create their own environment, we introduced some of the basics below.
+
 #### Creation
 > conda create --name myenv
 
