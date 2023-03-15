@@ -1,899 +1,705 @@
-[
-  {"type":"directory","name":".","contents":[
-    {"type":"file","name":"README.md"},
-    {"type":"directory","name":"core_libraries","contents":[
-      {"type":"file","name":"README.md"},
-      {"type":"directory","name":"build","contents":[
-        {"type":"directory","name":"python","contents":[
-          {"type":"directory","name":"RNS","contents":[
-            {"type":"directory","name":"build_RNS_toolbox","contents":[
-              {"type":"file","name":"LICENSE"},
-              {"type":"file","name":"README.md"},
-              {"type":"directory","name":"dist","contents":[
-                {"type":"file","name":"RNS_toolbox-0.0.1-py3-none-any.whl"},
-                {"type":"file","name":"RNS_toolbox-0.0.1.tar.gz"}
-              ]},
-              {"type":"file","name":"pyproject.toml"},
-              {"type":"directory","name":"src","contents":[
-                {"type":"link","name":"RNS_toolbox","target":"../../../../../submodules/RNS_processing_toolbox"},
-                {"type":"directory","name":"RNS_toolbox.egg-info","contents":[
-                  {"type":"file","name":"PKG-INFO"},
-                  {"type":"file","name":"SOURCES.txt"},
-                  {"type":"file","name":"dependency_links.txt"},
-                  {"type":"file","name":"top_level.txt"}
-                ]}
-              ]}
-            ]}
-          ]},
-          {"type":"directory","name":"active_wear","contents":[
-            {"type":"directory","name":"build_LB3_processing","contents":[
-              {"type":"file","name":"LICENSE"},
-              {"type":"file","name":"README.md"},
-              {"type":"directory","name":"dist","contents":[
-                {"type":"file","name":"LB3_processing-0.0.1-py3-none-any.whl"},
-                {"type":"file","name":"LB3_processing-0.0.1.tar.gz"}
-              ]},
-              {"type":"file","name":"pyproject.toml"},
-              {"type":"directory","name":"src","contents":[
-                {"type":"link","name":"LB3_processing","target":"../../../../../submodules/LB3_processing/wearables/tools"},
-                {"type":"directory","name":"LB3_processing.egg-info","contents":[
-                  {"type":"file","name":"PKG-INFO"},
-                  {"type":"file","name":"SOURCES.txt"},
-                  {"type":"file","name":"dependency_links.txt"},
-                  {"type":"file","name":"top_level.txt"}
-                ]}
-              ]}
-            ]}
-          ]},
-          {"type":"directory","name":"ieeg","contents":[
-            {"type":"directory","name":"build_CNT_research_tools","contents":[
-              {"type":"file","name":"LICENSE"},
-              {"type":"file","name":"README.md"},
-              {"type":"directory","name":"dist","contents":[
-                {"type":"file","name":"CNT_research_tools-0.0.1-py3-none-any.whl"},
-                {"type":"file","name":"CNT_research_tools-0.0.1.tar.gz"}
-              ]},
-              {"type":"file","name":"pyproject.toml"},
-              {"type":"directory","name":"src","contents":[
-                {"type":"directory","name":"CNT_research_tools","contents":[
-                  {"type":"link","name":"__init__.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/__init__.py"},
-                  {"type":"link","name":"automatic_bipolar_montage.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/automatic_bipolar_montage.py"},
-                  {"type":"link","name":"bandpower.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/bandpower.py"},
-                  {"type":"link","name":"clean_labels.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/clean_labels.py"},
-                  {"type":"link","name":"find_non_ieeg.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/find_non_ieeg.py"},
-                  {"type":"link","name":"get_iEEG_data.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/get_iEEG_data.py"},
-                  {"type":"link","name":"gini.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/gini.py"},
-                  {"type":"link","name":"line_length.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/line_length.py"},
-                  {"type":"link","name":"movmean.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/movmean.py"},
-                  {"type":"link","name":"plot_iEEG_data.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/plot_iEEG_data.py"},
-                  {"type":"link","name":"pull_patient_localization.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/pull_patient_localization.py"},
-                  {"type":"link","name":"pull_sz_ends.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/pull_sz_ends.py"},
-                  {"type":"link","name":"pull_sz_starts.py","target":"../../../../../../submodules/CNT_research_tools/python/tools/pull_sz_starts.py"}
-                ]},
-                {"type":"directory","name":"CNT_research_tools.egg-info","contents":[
-                  {"type":"file","name":"PKG-INFO"},
-                  {"type":"file","name":"SOURCES.txt"},
-                  {"type":"file","name":"dependency_links.txt"},
-                  {"type":"file","name":"top_level.txt"}
-                ]}
-              ]}
-            ]},
-            {"type":"directory","name":"build_CNT_unit_tests","contents":[
-              {"type":"file","name":"LICENSE"},
-              {"type":"file","name":"README.md"},
-              {"type":"directory","name":"dist","contents":[
-                {"type":"file","name":"CNT_unit_tests-0.0.1-py3-none-any.whl"},
-                {"type":"file","name":"CNT_unit_tests-0.0.1.tar.gz"}
-              ]},
-              {"type":"file","name":"pyproject.toml"},
-              {"type":"directory","name":"src","contents":[
-                {"type":"directory","name":"CNT_unit_tests","contents":[
-                  {"type":"file","name":"__init__.py"},
-                  {"type":"directory","name":"machine_level","contents":[
-                    {"type":"file","name":"__init__.py"},
-                    {"type":"link","name":"array_unit_tests.py","target":"/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/unit_tests/machine_level/array_unit_tests.py"}
-                  ]},
-                  {"type":"directory","name":"model_level","contents":[
-                    {"type":"file","name":"__init__.py"},
-                    {"type":"link","name":"classification_f1_score.py","target":"/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/unit_tests/model_level/classification_f1_score.py"}
-                  ]}
-                ]},
-                {"type":"directory","name":"CNT_unit_tests.egg-info","contents":[
-                  {"type":"file","name":"PKG-INFO"},
-                  {"type":"file","name":"SOURCES.txt"},
-                  {"type":"file","name":"dependency_links.txt"},
-                  {"type":"file","name":"top_level.txt"}
-                ]}
-              ]}
-            ]},
-            {"type":"directory","name":"build_ieegpy","contents":[
-              {"type":"link","name":"LICENSE.md","target":"../../../../submodules/ieegpy/LICENSE.md"},
-              {"type":"link","name":"README.md","target":"../../../../submodules/ieegpy/README.md"},
-              {"type":"directory","name":"build","contents":[
-                {"type":"directory","name":"bdist.macosx-10.9-x86_64"},
-                {"type":"directory","name":"lib","contents":[
-                  {"type":"directory","name":"ieeg","contents":[
-                    {"type":"file","name":"__init__.py"},
-                    {"type":"file","name":"annotation_processing.py"},
-                    {"type":"file","name":"auth.py"},
-                    {"type":"file","name":"dataset.py"},
-                    {"type":"file","name":"ieeg_api.py"},
-                    {"type":"file","name":"ieeg_auth.py"},
-                    {"type":"file","name":"mprov_listener.py"},
-                    {"type":"file","name":"processing.py"}
-                  ]}
-                ]}
-              ]},
-              {"type":"link","name":"examples","target":"../../../../submodules/ieegpy/examples"},
-              {"type":"link","name":"ieeg","target":"../../../../submodules/ieegpy/ieeg"},
-              {"type":"file","name":"ieeg-1.6-py3-none-any.whl"},
-              {"type":"directory","name":"ieeg.egg-info","contents":[
-                {"type":"file","name":"PKG-INFO"},
-                {"type":"file","name":"SOURCES.txt"},
-                {"type":"file","name":"dependency_links.txt"},
-                {"type":"file","name":"requires.txt"},
-                {"type":"file","name":"top_level.txt"}
-              ]},
-              {"type":"link","name":"read_sample.py","target":"../../../../submodules/ieegpy/read_sample.py"},
-              {"type":"link","name":"setup.py","target":"../../../../submodules/ieegpy/setup.py"}
-            ]},
-            {"type":"directory","name":"build_pipeline_ieeg","contents":[
-              {"type":"file","name":"LICENSE"},
-              {"type":"file","name":"README.md"},
-              {"type":"directory","name":"dist","contents":[
-                {"type":"file","name":"pipeline_ieeg-0.0.1-py3-none-any.whl"},
-                {"type":"file","name":"pipeline_ieeg-0.0.1.tar.gz"}
-              ]},
-              {"type":"file","name":"pyproject.toml"},
-              {"type":"directory","name":"src","contents":[
-                {"type":"directory","name":"pipeline_ieeg","contents":[
-                  {"type":"file","name":"__init__.py"},
-                  {"type":"directory","name":"data_pull","contents":[
-                    {"type":"file","name":"__init__.py"},
-                    {"type":"link","name":"check_data_repository.py","target":"/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_pull/check_data_repository.py"},
-                    {"type":"link","name":"get_dummy_data.py","target":"/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_pull/get_dummy_data.py"},
-                    {"type":"link","name":"pipeline_datapull_ieeg.py","target":"/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_pull/pipeline_datapull_ieeg.py"}
-                  ]},
-                  {"type":"directory","name":"data_quality","contents":[
-                    {"type":"file","name":"__init__.py"},
-                    {"type":"link","name":"dataframe_properties_check.py","target":"/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_quality/dataframe_properties_check.py"},
-                    {"type":"link","name":"hash_check.py","target":"/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_quality/hash_check.py"},
-                    {"type":"link","name":"variance_check.py","target":"/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_quality/variance_check.py"}
-                  ]},
-                  {"type":"directory","name":"feature_selection","contents":[
-                    {"type":"file","name":"__init__.py"},
-                    {"type":"link","name":"pipeline_feature_selection_ieeg.py","target":"/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/feature_selection/pipeline_feature_selection_ieeg.py"}
-                  ]},
-                  {"type":"directory","name":"preprocessing","contents":[
-                    {"type":"file","name":"__init__.py"},
-                    {"type":"link","name":"pipeline_preprocessing_ieeg.py","target":"/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/preprocessing/pipeline_preprocessing_ieeg.py"}
-                  ]}
-                ]},
-                {"type":"directory","name":"pipeline_ieeg.egg-info","contents":[
-                  {"type":"file","name":"PKG-INFO"},
-                  {"type":"file","name":"SOURCES.txt"},
-                  {"type":"file","name":"dependency_links.txt"},
-                  {"type":"file","name":"top_level.txt"}
-                ]}
-              ]}
-            ]}
-          ]},
-          {"type":"directory","name":"imaging","contents":[
-            {"type":"directory","name":"build_bctpy","contents":[
-              {"type":"file","name":"bctpy-0.6.0-py3-none-any.whl"},
-              {"type":"file","name":"bctpy-0.6.0.tar.gz"}
-            ]}
-          ]}
-        ]}
-      ]},
-      {"type":"directory","name":"matlab","contents":[
-        {"type":"file","name":"README.md"}
-      ]},
-      {"type":"directory","name":"python","contents":[
-        {"type":"directory","name":"RNS","contents":[
-          {"type":"file","name":"README.txt"},
-          {"type":"file","name":"RNS_toolbox-0.0.1-py3-none-any.whl"},
-          {"type":"file","name":"RNS_toolbox-0.0.1.tar.gz"}
-        ]},
-        {"type":"directory","name":"active_wear","contents":[
-          {"type":"file","name":"LB3_processing-0.0.1-py3-none-any.whl"},
-          {"type":"file","name":"LB3_processing-0.0.1.tar.gz"},
-          {"type":"file","name":"README.txt"}
-        ]},
-        {"type":"directory","name":"ieeg","contents":[
-          {"type":"file","name":"CNT_research_tools-0.0.1-py3-none-any.whl"},
-          {"type":"file","name":"CNT_unit_tests-0.0.1-py3-none-any.whl"},
-          {"type":"file","name":"README.md"},
-          {"type":"file","name":"ieeg-1.6-py3-none-any.whl"},
-          {"type":"file","name":"ieeg_environment.yml"},
-          {"type":"file","name":"pipeline_ieeg-0.0.1-py3-none-any.whl"}
-        ]},
-        {"type":"directory","name":"imaging","contents":[
-          {"type":"file","name":"README.txt"},
-          {"type":"file","name":"bctpy-0.6.0-py3-none-any.whl"},
-          {"type":"file","name":"bctpy-0.6.0.tar.gz"}
-        ]}
-      ]},
-      {"type":"directory","name":"submodules","contents":[
-        {"type":"directory","name":"CNT_research_tools","contents":[
-          {"type":"directory","name":"Matlab","contents":[
-            {"type":"file","name":"ReadMe.m"},
-            {"type":"directory","name":"artifact_identification","contents":[
-              {"type":"file","name":"identify_bad_chs.m"}
-            ]},
-            {"type":"directory","name":"channel_processing","contents":[
-              {"type":"file","name":"decompose_labels.m"},
-              {"type":"file","name":"find_non_intracranial.m"},
-              {"type":"file","name":"reconcile_ch_names.m"}
-            ]},
-            {"type":"directory","name":"data_import","contents":[
-              {"type":"file","name":"download_ieeg_data.m"}
-            ]},
-            {"type":"directory","name":"filters","contents":[
-              {"type":"file","name":"bandpass_filter.m"},
-              {"type":"file","name":"notch_filter.m"}
-            ]},
-            {"type":"directory","name":"other_eeg_processing","contents":[
-              {"type":"file","name":"pre_whiten.m"}
-            ]},
-            {"type":"directory","name":"references","contents":[
-              {"type":"file","name":"bipolar_montage.m"},
-              {"type":"file","name":"common_average_reference.m"},
-              {"type":"file","name":"laplacian_reference.m"}
-            ]},
-            {"type":"directory","name":"testing","contents":[
-              {"type":"file","name":"pipeline_test_clip.m"}
-            ]},
-            {"type":"directory","name":"visualization","contents":[
-              {"type":"file","name":"show_eeg.m"}
-            ]}
-          ]},
-          {"type":"file","name":"README.md"},
-          {"type":"file","name":"config_example.json"},
-          {"type":"directory","name":"python","contents":[
-            {"type":"file","name":"99-example_ieeg.py"},
-            {"type":"file","name":"ieegpy-base.yml"},
-            {"type":"file","name":"ieegpy.yml"},
-            {"type":"directory","name":"tools","contents":[
-              {"type":"file","name":"__init__.py"},
-              {"type":"directory","name":"__pycache__","contents":[
-                {"type":"file","name":"__init__.cpython-38.pyc"},
-                {"type":"file","name":"add_img_to_ppt.cpython-38.pyc"},
-                {"type":"file","name":"automatic_bipolar_montage.cpython-38.pyc"},
-                {"type":"file","name":"bandpower.cpython-38.pyc"},
-                {"type":"file","name":"clean_channels.cpython-38.pyc"},
-                {"type":"file","name":"get_iEEG_data.cpython-310.pyc"},
-                {"type":"file","name":"get_iEEG_data.cpython-36.pyc"},
-                {"type":"file","name":"get_iEEG_data.cpython-37.pyc"},
-                {"type":"file","name":"get_iEEG_data.cpython-38.pyc"},
-                {"type":"file","name":"gini.cpython-38.pyc"},
-                {"type":"file","name":"line_length.cpython-38.pyc"},
-                {"type":"file","name":"movmean.cpython-38.pyc"},
-                {"type":"file","name":"plot_iEEG_data.cpython-38.pyc"},
-                {"type":"file","name":"pull_patient_localization.cpython-310.pyc"},
-                {"type":"file","name":"pull_patient_localization.cpython-37.pyc"},
-                {"type":"file","name":"pull_patient_localization.cpython-38.pyc"},
-                {"type":"file","name":"pull_sz_ends.cpython-38.pyc"},
-                {"type":"file","name":"pull_sz_starts.cpython-38.pyc"}
-              ]},
-              {"type":"file","name":"automatic_bipolar_montage.py"},
-              {"type":"file","name":"bandpower.py"},
-              {"type":"file","name":"clean_labels.py"},
-              {"type":"file","name":"find_non_ieeg.py"},
-              {"type":"file","name":"get_iEEG_data.py"},
-              {"type":"file","name":"gini.py"},
-              {"type":"file","name":"line_length.py"},
-              {"type":"file","name":"movmean.py"},
-              {"type":"file","name":"plot_iEEG_data.py"},
-              {"type":"file","name":"pull_patient_localization.py"},
-              {"type":"file","name":"pull_sz_ends.py"},
-              {"type":"file","name":"pull_sz_starts.py"}
-            ]}
-          ]}
-        ]},
-        {"type":"directory","name":"LB3_processing","contents":[
-          {"type":"directory","name":"wearables","contents":[
-            {"type":"directory","name":"tools","contents":[
-              {"type":"file","name":"apple_parse.py"},
-              {"type":"file","name":"helpers_jp.py"},
-              {"type":"file","name":"parse_convert_hr_acc_data.ipynb"},
-              {"type":"file","name":"patient_summary.ipynb"},
-              {"type":"file","name":"plot_timeline.py"},
-              {"type":"file","name":"sleep_parser.ipynb"},
-              {"type":"file","name":"subject_metadata_jp.json"}
-            ]}
-          ]}
-        ]},
-        {"type":"file","name":"README.md"},
-        {"type":"directory","name":"RNS_processing_toolbox","contents":[
-          {"type":"file","name":"README.md"},
-          {"type":"file","name":"config_example.JSON"},
-          {"type":"directory","name":"lib","contents":[
-            {"type":"file","name":"MEF_writer.jar"}
-          ]},
-          {"type":"directory","name":"matlab_tools","contents":[
-            {"type":"directory","name":"ecog","contents":[
-              {"type":"file","name":"RNShistogram.m"},
-              {"type":"file","name":"classifyECoG.m"},
-              {"type":"file","name":"findStim.m"},
-              {"type":"file","name":"getFeatures.m"}
-            ]},
-            {"type":"file","name":"example_analysis.m"},
-            {"type":"directory","name":"pipelines","contents":[
-              {"type":"file","name":"RNS_raw_feature_pipeline.m"},
-              {"type":"file","name":"episode_detection_pipeline.m"},
-              {"type":"file","name":"process_raw.m"},
-              {"type":"file","name":"stim_detection_pipeline.m"}
-            ]},
-            {"type":"directory","name":"test","contents":[
-              {"type":"file","name":"test_filter_windows.m"}
-            ]},
-            {"type":"directory","name":"utils","contents":[
-              {"type":"file","name":"filterWindows.m"},
-              {"type":"file","name":"getDetectionsInRecordedEvents.m"},
-              {"type":"file","name":"getEpisodeDurationsFileInfo.m"},
-              {"type":"file","name":"idx2event.m"},
-              {"type":"file","name":"idx2time.m"},
-              {"type":"file","name":"loadRNSptData.m"},
-              {"type":"file","name":"parsePDMS_file.m"},
-              {"type":"file","name":"parsePDMSdetections.m"},
-              {"type":"file","name":"ptPth.m"}
-            ]},
-            {"type":"directory","name":"visualize","contents":[
-              {"type":"file","name":"vis_event.m"}
-            ]}
-          ]},
-          {"type":"directory","name":"props","contents":[
-            {"type":"file","name":"data_system.png"},
-            {"type":"file","name":"system_docs.pptx"}
-          ]},
-          {"type":"file","name":"rns_processing_toolbox.yml"},
-          {"type":"directory","name":"rns_py_tools","contents":[
-            {"type":"file","name":"LICENSE"},
-            {"type":"directory","name":"functions","contents":[
-              {"type":"file","name":"NPDataHandler.py"},
-              {"type":"file","name":"PDMSpdf_to_csv.py"},
-              {"type":"file","name":"__init__.py"},
-              {"type":"file","name":"pennsieve_tools.py"},
-              {"type":"file","name":"utils.py"},
-              {"type":"file","name":"visualize.py"}
-            ]},
-            {"type":"file","name":"pennsieve_pipeline.py"},
-            {"type":"file","name":"process_raw.py"},
-            {"type":"file","name":"test_pytools.py"}
-          ]}
-        ]},
-        {"type":"directory","name":"bctpy","contents":[
-          {"type":"file","name":"CHANGELOG.md"},
-          {"type":"file","name":"CREDITS"},
-          {"type":"file","name":"LICENSE"},
-          {"type":"file","name":"README.md"},
-          {"type":"directory","name":"bct","contents":[
-            {"type":"file","name":"__init__.py"},
-            {"type":"directory","name":"algorithms","contents":[
-              {"type":"file","name":"__init__.py"},
-              {"type":"file","name":"centrality.py"},
-              {"type":"file","name":"clustering.py"},
-              {"type":"file","name":"core.py"},
-              {"type":"file","name":"degree.py"},
-              {"type":"file","name":"distance.py"},
-              {"type":"file","name":"generative.py"},
-              {"type":"file","name":"modularity.py"},
-              {"type":"file","name":"motifs.py"},
-              {"type":"file","name":"physical_connectivity.py"},
-              {"type":"file","name":"reference.py"},
-              {"type":"file","name":"similarity.py"}
-            ]},
-            {"type":"file","name":"citations.py"},
-            {"type":"file","name":"due.py"},
-            {"type":"file","name":"motif34lib.mat"},
-            {"type":"file","name":"nbs.py"},
-            {"type":"directory","name":"utils","contents":[
-              {"type":"file","name":"__init__.py"},
-              {"type":"file","name":"miscellaneous_utilities.py"},
-              {"type":"file","name":"other.py"},
-              {"type":"file","name":"visualization.py"}
-            ]},
-            {"type":"file","name":"version.py"}
-          ]},
-          {"type":"directory","name":"bctpy.egg-info","contents":[
-            {"type":"file","name":"PKG-INFO"},
-            {"type":"file","name":"SOURCES.txt"},
-            {"type":"file","name":"dependency_links.txt"},
-            {"type":"file","name":"requires.txt"},
-            {"type":"file","name":"top_level.txt"}
-          ]},
-          {"type":"directory","name":"docs","contents":[
-            {"type":"file","name":"Makefile"},
-            {"type":"directory","name":"_build","contents":[
-              {"type":"directory","name":"doctrees","contents":[
-                {"type":"directory","name":"_templates","contents":[
-                  {"type":"file","name":"function.doctree"}
-                ]},
-                {"type":"file","name":"bct.doctree"},
-                {"type":"file","name":"environment.pickle"},
-                {"type":"file","name":"index.doctree"},
-                {"type":"file","name":"modules.doctree"},
-                {"type":"file","name":"stupid.doctree"}
-              ]},
-              {"type":"directory","name":"html","contents":[
-                {"type":"directory","name":"_sources","contents":[
-                  {"type":"directory","name":"_templates","contents":[
-                    {"type":"file","name":"function.txt"}
-                  ]},
-                  {"type":"file","name":"bct.txt"},
-                  {"type":"file","name":"index.txt"},
-                  {"type":"file","name":"modules.txt"},
-                  {"type":"file","name":"stupid.txt"}
-                ]},
-                {"type":"directory","name":"_static","contents":[
-                  {"type":"file","name":"ajax-loader.gif"},
-                  {"type":"file","name":"basic.css"},
-                  {"type":"file","name":"comment-bright.png"},
-                  {"type":"file","name":"comment-close.png"},
-                  {"type":"file","name":"comment.png"},
-                  {"type":"file","name":"default.css"},
-                  {"type":"file","name":"doctools.js"},
-                  {"type":"file","name":"down-pressed.png"},
-                  {"type":"file","name":"down.png"},
-                  {"type":"file","name":"file.png"},
-                  {"type":"file","name":"jquery.js"},
-                  {"type":"file","name":"minus.png"},
-                  {"type":"file","name":"plus.png"},
-                  {"type":"file","name":"pygments.css"},
-                  {"type":"file","name":"searchtools.js"},
-                  {"type":"file","name":"sidebar.js"},
-                  {"type":"file","name":"underscore.js"},
-                  {"type":"file","name":"up-pressed.png"},
-                  {"type":"file","name":"up.png"},
-                  {"type":"file","name":"websupport.js"}
-                ]},
-                {"type":"directory","name":"_templates","contents":[
-                  {"type":"file","name":"function.html"}
-                ]},
-                {"type":"file","name":"bct.html"},
-                {"type":"file","name":"genindex.html"},
-                {"type":"file","name":"index.html"},
-                {"type":"file","name":"modules.html"},
-                {"type":"file","name":"np-modindex.html"},
-                {"type":"file","name":"objects.inv"},
-                {"type":"file","name":"py-modindex.html"},
-                {"type":"file","name":"search.html"},
-                {"type":"file","name":"searchindex.js"},
-                {"type":"file","name":"stupid.html"}
-              ]}
-            ]},
-            {"type":"directory","name":"_templates","contents":[
-              {"type":"file","name":"function.rst"}
-            ]},
-            {"type":"file","name":"bct.rst"},
-            {"type":"file","name":"conf.py"},
-            {"type":"file","name":"index.rst"},
-            {"type":"file","name":"modules.rst"},
-            {"type":"directory","name":"sphinxext","contents":[
-              {"type":"directory","name":"numpy_ext","contents":[
-                {"type":"file","name":"__init__.py"},
-                {"type":"file","name":"docscrape.py"},
-                {"type":"file","name":"docscrape_sphinx.py"},
-                {"type":"file","name":"numpydoc.py"}
-              ]}
-            ]}
-          ]},
-          {"type":"file","name":"function_reference.html"},
-          {"type":"file","name":"requirements.txt"},
-          {"type":"file","name":"setup.py"},
-          {"type":"directory","name":"test","contents":[
-            {"type":"file","name":"__init__.py"},
-            {"type":"file","name":"basic_test.py"},
-            {"type":"file","name":"centrality_test.py"},
-            {"type":"file","name":"clustering_test.py"},
-            {"type":"file","name":"conftest.py"},
-            {"type":"file","name":"core_test.py"},
-            {"type":"file","name":"distance_test.py"},
-            {"type":"file","name":"duecredit_test.py"},
-            {"type":"directory","name":"failing_cases","contents":[
-              {"type":"file","name":"modularity_dir_example.csv"}
-            ]},
-            {"type":"file","name":"load_samples.py"},
-            {"type":"directory","name":"mats","contents":[
-              {"type":"file","name":"sample_data.mat"},
-              {"type":"file","name":"sample_data.npy"},
-              {"type":"file","name":"sample_directed.mat"},
-              {"type":"file","name":"sample_directed.npy"},
-              {"type":"file","name":"sample_directed_gc.mat"},
-              {"type":"file","name":"sample_directed_gc.npy"},
-              {"type":"file","name":"sample_group_dsi.mat"},
-              {"type":"file","name":"sample_group_dsi.npy"},
-              {"type":"file","name":"sample_group_fmri.mat"},
-              {"type":"file","name":"sample_group_fmri.npy"},
-              {"type":"file","name":"sample_group_qball.mat"},
-              {"type":"file","name":"sample_group_qball.npy"},
-              {"type":"file","name":"sample_partition.mat"},
-              {"type":"file","name":"sample_partition.npy"},
-              {"type":"file","name":"sample_pc.mat"},
-              {"type":"file","name":"sample_pc.npy"},
-              {"type":"file","name":"sample_signed.mat"},
-              {"type":"file","name":"sample_signed.npy"},
-              {"type":"file","name":"sample_signed_partition.mat"},
-              {"type":"file","name":"sample_zi.mat"},
-              {"type":"file","name":"sample_zi.npy"}
-            ]},
-            {"type":"file","name":"modularity_derived_metrics_test.py"},
-            {"type":"file","name":"modularity_test.py"},
-            {"type":"file","name":"nbs_test.py"},
-            {"type":"file","name":"nodals_test.py"},
-            {"type":"file","name":"partition_distance_test.py"},
-            {"type":"file","name":"reference_test.py"},
-            {"type":"file","name":"simple_script.py"},
-            {"type":"file","name":"very_long_test.py"}
-          ]},
-          {"type":"file","name":"tox.ini"}
-        ]},
-        {"type":"directory","name":"epycom","contents":[
-          {"type":"file","name":"LICENSE.txt"},
-          {"type":"directory","name":"doc","contents":[
-            {"type":"file","name":"Makefile"},
-            {"type":"file","name":"conf.py"},
-            {"type":"file","name":"feature_extraction.rst"},
-            {"type":"file","name":"index.rst"}
-          ]},
-          {"type":"directory","name":"epycom","contents":[
-            {"type":"file","name":"__init__.py"},
-            {"type":"directory","name":"artifact_detection","contents":[
-              {"type":"file","name":"__init__.py"},
-              {"type":"file","name":"powerline_noise.py"},
-              {"type":"file","name":"saturation.py"},
-              {"type":"directory","name":"tests","contents":[
-                {"type":"file","name":"conftest.py"},
-                {"type":"file","name":"test_artifact_detection.py"}
-              ]}
-            ]},
-            {"type":"directory","name":"bivariate","contents":[
-              {"type":"file","name":"__init__.py"},
-              {"type":"file","name":"coherence.py"},
-              {"type":"file","name":"linear_correlation.py"},
-              {"type":"file","name":"phase_consistency.py"},
-              {"type":"file","name":"phase_lag_index.py"},
-              {"type":"file","name":"phase_synchrony.py"},
-              {"type":"file","name":"relative_entropy.py"},
-              {"type":"file","name":"spectra_multiplication.py"},
-              {"type":"directory","name":"tests","contents":[
-                {"type":"file","name":"conftest.py"},
-                {"type":"file","name":"test_bivariate.py"}
-              ]}
-            ]},
-            {"type":"directory","name":"event_detection","contents":[
-              {"type":"file","name":"__init__.py"},
-              {"type":"directory","name":"hfo","contents":[
-                {"type":"file","name":"__init__.py"},
-                {"type":"file","name":"cs_detector.py"},
-                {"type":"file","name":"hilbert_detector.py"},
-                {"type":"file","name":"ll_detector.py"},
-                {"type":"file","name":"rms_detector.py"}
-              ]},
-              {"type":"directory","name":"spike","contents":[
-                {"type":"file","name":"__init__.py"},
-                {"type":"file","name":"barkmeier_detector.py"}
-              ]},
-              {"type":"directory","name":"tests","contents":[
-                {"type":"file","name":"conftest.py"},
-                {"type":"file","name":"test_event_detection.py"}
-              ]}
-            ]},
-            {"type":"directory","name":"simulation","contents":[
-              {"type":"file","name":"__init__.py"},
-              {"type":"file","name":"create_simulated.py"},
-              {"type":"directory","name":"tests","contents":[
-                {"type":"file","name":"test_simulation.py"}
-              ]}
-            ]},
-            {"type":"directory","name":"univariate","contents":[
-              {"type":"file","name":"__init__.py"},
-              {"type":"file","name":"approximate_entropy.py"},
-              {"type":"file","name":"arr.py"},
-              {"type":"file","name":"hjorth_complexity.py"},
-              {"type":"file","name":"hjorth_mobility.py"},
-              {"type":"file","name":"lyapunov_exponent.py"},
-              {"type":"file","name":"mean_vector_length.py"},
-              {"type":"file","name":"modulation_index.py"},
-              {"type":"file","name":"phase_locking_value.py"},
-              {"type":"file","name":"power_spectral_entropy.py"},
-              {"type":"file","name":"sample_entropy.py"},
-              {"type":"file","name":"shannon_entropy.py"},
-              {"type":"file","name":"signal_stats.py"},
-              {"type":"directory","name":"tests","contents":[
-                {"type":"file","name":"conftest.py"},
-                {"type":"file","name":"test_univariate.py"}
-              ]}
-            ]},
-            {"type":"directory","name":"utils","contents":[
-              {"type":"file","name":"__init__.py"},
-              {"type":"file","name":"data_operations.py"},
-              {"type":"file","name":"method.py"},
-              {"type":"file","name":"signal_transforms.py"},
-              {"type":"directory","name":"tests","contents":[
-                {"type":"file","name":"conftest.py"},
-                {"type":"file","name":"test_utils.py"}
-              ]},
-              {"type":"file","name":"thresholds.py"},
-              {"type":"file","name":"tools.py"}
-            ]},
-            {"type":"directory","name":"validation","contents":[
-              {"type":"file","name":"__init__.py"},
-              {"type":"file","name":"feature_evaluation.py"},
-              {"type":"file","name":"precision_recall.py"},
-              {"type":"directory","name":"tests","contents":[
-                {"type":"file","name":"conftest.py"},
-                {"type":"file","name":"test_validation.py"}
-              ]},
-              {"type":"file","name":"util.py"}
-            ]}
-          ]},
-          {"type":"file","name":"readme.rst"},
-          {"type":"file","name":"setup.cfg"},
-          {"type":"file","name":"setup.py"}
-        ]},
-        {"type":"directory","name":"ieegpy","contents":[
-          {"type":"file","name":"LICENSE.md"},
-          {"type":"file","name":"README.md"},
-          {"type":"directory","name":"examples","contents":[
-            {"type":"file","name":"annotations.py"},
-            {"type":"file","name":"dataset_start_time.py"},
-            {"type":"file","name":"get_data.py"},
-            {"type":"file","name":"montages.py"},
-            {"type":"file","name":"mprov_example.py"}
-          ]},
-          {"type":"directory","name":"ieeg","contents":[
-            {"type":"file","name":"__init__.py"},
-            {"type":"file","name":"annotation_processing.py"},
-            {"type":"file","name":"auth.py"},
-            {"type":"file","name":"dataset.py"},
-            {"type":"file","name":"ieeg_api.py"},
-            {"type":"file","name":"ieeg_auth.py"},
-            {"type":"file","name":"mprov_listener.py"},
-            {"type":"file","name":"processing.py"}
-          ]},
-          {"type":"file","name":"read_sample.py"},
-          {"type":"file","name":"setup.py"}
-        ]}
-      ]}
-    ]},
-    {"type":"directory","name":"data_pointers","contents":[
-      {"type":"directory","name":"active_wear","contents":[
-        {"type":"file","name":"notes.txt"}
-      ]},
-      {"type":"directory","name":"ieeg","contents":[
-        {"type":"file","name":"cached_ieeg_data.csv"},
-        {"type":"file","name":"notes.txt"}
-      ]},
-      {"type":"directory","name":"images","contents":[
-        {"type":"file","name":"notes.txt"}
-      ]}
-    ]},
-    {"type":"directory","name":"documents","contents":[
-      {"type":"directory","name":"SOP","contents":[
-        {"type":"directory","name":"Pioneer","contents":[
-          {"type":"file","name":"Pioneer-iEEG-v0_2.docx"}
-        ]}
-      ]},
-      {"type":"directory","name":"libraries","contents":[
-        {"type":"directory","name":"CNT_research_tools","contents":[
-          {"type":"file","name":"Modules.md"}
-        ]},
-        {"type":"directory","name":"epycom","contents":[
-          {"type":"directory","name":"artifact_detection","contents":[
-            {"type":"file","name":"Modules.md"}
-          ]},
-          {"type":"directory","name":"bivariate","contents":[
-            {"type":"file","name":"Modules.md"}
-          ]},
-          {"type":"directory","name":"event_detection","contents":[
-            {"type":"file","name":"Modules.md"}
-          ]},
-          {"type":"directory","name":"simulation","contents":[
-            {"type":"file","name":"Modules.md"}
-          ]},
-          {"type":"directory","name":"univariate","contents":[
-            {"type":"file","name":"Modules.md"}
-          ]},
-          {"type":"directory","name":"utils","contents":[
-            {"type":"file","name":"Modules.md"}
-          ]},
-          {"type":"directory","name":"validation","contents":[
-            {"type":"file","name":"Modules.md"}
-          ]}
-        ]}
-      ]},
-      {"type":"directory","name":"workflows","contents":[
-        {"type":"directory","name":"Pioneer","contents":[
-          {"type":"file","name":"Pioneer_Chatbot_v0.2.drawio.png"},
-          {"type":"file","name":"Pioneer_iEEG_v0.2.drawio.png"}
-        ]}
-      ]}
-    ]},
-    {"type":"directory","name":"examples","contents":[
-      {"type":"directory","name":"ieeg","contents":[
-        {"type":"file","name":"README.md"}
-      ]},
-      {"type":"directory","name":"pipeline","contents":[
-        {"type":"directory","name":"RNS","contents":[
-          {"type":"file","name":"README.md"}
-        ]},
-        {"type":"directory","name":"ieeg","contents":[
-          {"type":"file","name":"README.md"},
-          {"type":"file","name":"iEEG_example.ipynb"},
-          {"type":"link","name":"ieeg_workflow.py","target":"/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/ieeg_workflow.py"}
-        ]}
-      ]}
-    ]},
-    {"type":"directory","name":"reference_data","contents":[
-      {"type":"file","name":"README.txt"},
-      {"type":"directory","name":"ieeg","contents":[
-        {"type":"directory","name":"manual_validation","contents":[
-          {"type":"directory","name":"DATA","contents":[
-            {"type":"directory","name":"All","contents":[
-              {"type":"file","name":"All.csv"}
-            ]},
-            {"type":"directory","name":"AllSeizureTimes","contents":[
-              {"type":"file","name":"AllSeizureTimes.csv"}
-            ]},
-            {"type":"directory","name":"Coherence run","contents":[
-              {"type":"file","name":"Coherence run.csv"}
-            ]},
-            {"type":"directory","name":"EDF pipeline","contents":[
-              {"type":"file","name":"EDF pipeline.csv"}
-            ]},
-            {"type":"directory","name":"FileStartTimes","contents":[
-              {"type":"file","name":"FileStartTimes.csv"}
-            ]},
-            {"type":"directory","name":"Jim SOZ","contents":[
-              {"type":"file","name":"Jim SOZ.csv"}
-            ]},
-            {"type":"directory","name":"Peri-ictal","contents":[
-              {"type":"file","name":"Peri-ictal.csv"}
-            ]},
-            {"type":"directory","name":"Pre-implant data","contents":[
-              {"type":"file","name":"Pre-implant data.csv"}
-            ]},
-            {"type":"directory","name":"SOZ","contents":[
-              {"type":"file","name":"SOZ.csv"}
-            ]},
-            {"type":"directory","name":"SpikeCounts","contents":[
-              {"type":"file","name":"SpikeCounts.csv"}
-            ]},
-            {"type":"directory","name":"Stereo","contents":[
-              {"type":"file","name":"Stereo.csv"}
-            ]},
-            {"type":"directory","name":"Validation Sw","contents":[
-              {"type":"file","name":"Validation Sw.csv"}
-            ]}
-          ]},
-          {"type":"file","name":"README.txt"},
-          {"type":"file","name":"manual_validation.xlsx"},
-          {"type":"file","name":"validation_to_csv.py"}
-        ]}
-      ]},
-      {"type":"directory","name":"imaging","contents":[
-        {"type":"file","name":"PLACEHOLDER.txt"}
-      ]}
-    ]},
-    {"type":"file","name":"respoistory_structure.json"},
-    {"type":"directory","name":"sample_data","contents":[
-      {"type":"directory","name":"active_wear","contents":[
-        {"type":"file","name":"PLACEHOLDER.txt"}
-      ]},
-      {"type":"directory","name":"ieeg","contents":[
-        {"type":"file","name":"notes.txt"}
-      ]},
-      {"type":"directory","name":"imaging","contents":[
-        {"type":"file","name":"Sirius_Mira_01.jpg"}
-      ]}
-    ]},
-    {"type":"directory","name":"scripts","contents":[
-      {"type":"file","name":"linux_setenv.sh"},
-      {"type":"file","name":"mac_setenv.sh"},
-      {"type":"directory","name":"matlab","contents":[
-        {"type":"file","name":"PLACEHOLDER.txt"}
-      ]},
-      {"type":"directory","name":"python","contents":[
-        {"type":"directory","name":"build_template","contents":[
-          {"type":"file","name":"LICENSE"},
-          {"type":"file","name":"README.md"},
-          {"type":"directory","name":"dist","contents":[
-            {"type":"file","name":"pipeline_ieeg-0.0.1-py3-none-any.whl"},
-            {"type":"file","name":"pipeline_ieeg-0.0.1.tar.gz"}
-          ]},
-          {"type":"file","name":"pyproject.toml"},
-          {"type":"directory","name":"src","contents":[
-            {"type":"directory","name":"pipeline_ieeg","contents":[
-              {"type":"file","name":"__init__.py"},
-              {"type":"directory","name":"data_pull","contents":[
-                {"type":"file","name":"__init__.py"},
-                {"type":"file","name":"check_data_repository.py"},
-                {"type":"file","name":"get_dummy_data.py"},
-                {"type":"file","name":"pipeline_datapull_ieeg.py"}
-              ]},
-              {"type":"directory","name":"data_quality","contents":[
-                {"type":"file","name":"__init__.py"},
-                {"type":"file","name":"dataframe_properties_check.py"},
-                {"type":"file","name":"hash_check.py"},
-                {"type":"file","name":"variance_check.py"}
-              ]},
-              {"type":"directory","name":"feature_selection","contents":[
-                {"type":"file","name":"__init__.py"},
-                {"type":"file","name":"pipeline_feature_selection_ieeg.py"}
-              ]},
-              {"type":"directory","name":"preprocessing","contents":[
-                {"type":"file","name":"__init__.py"},
-                {"type":"file","name":"pipeline_preprocessing_ieeg.py"}
-              ]}
-            ]},
-            {"type":"directory","name":"pipeline_ieeg.egg-info","contents":[
-              {"type":"file","name":"PKG-INFO"},
-              {"type":"file","name":"SOURCES.txt"},
-              {"type":"file","name":"dependency_links.txt"},
-              {"type":"file","name":"top_level.txt"}
-            ]}
-          ]}
-        ]},
-        {"type":"directory","name":"users","contents":[
-          {"type":"file","name":"README.md"},
-          {"type":"directory","name":"bjprager","contents":[
-            {"type":"file","name":"ieeg_workflow.py"},
-            {"type":"file","name":"make_library_docs.py"},
-            {"type":"directory","name":"pipeline_ieeg","contents":[
-              {"type":"directory","name":"data_pull","contents":[
-                {"type":"file","name":"check_data_repository.py"},
-                {"type":"file","name":"get_dummy_data.py"},
-                {"type":"file","name":"pipeline_datapull_ieeg.py"}
-              ]},
-              {"type":"directory","name":"data_push","contents":[
-                {"type":"file","name":"PLACEHOLDER.txt"}
-              ]},
-              {"type":"directory","name":"data_quality","contents":[
-                {"type":"file","name":"dataframe_properties_check.py"},
-                {"type":"file","name":"hash_check.py"},
-                {"type":"file","name":"variance_check.py"}
-              ]},
-              {"type":"directory","name":"feature_selection","contents":[
-                {"type":"file","name":"pipeline_feature_selection_ieeg.py"}
-              ]},
-              {"type":"directory","name":"preprocessing","contents":[
-                {"type":"file","name":"pipeline_preprocessing_ieeg.py"}
-              ]},
-              {"type":"directory","name":"testing","contents":[
-                {"type":"file","name":"__init__.py"},
-                {"type":"file","name":"acceptance_criteria.py"}
-              ]},
-              {"type":"directory","name":"training","contents":[
-                {"type":"file","name":"PLACEHOLDER.txt"},
-                {"type":"file","name":"__init__.py"}
-              ]}
-            ]}
-          ]}
-        ]}
-      ]}
-    ]},
-    {"type":"directory","name":"unit_tests","contents":[
-      {"type":"directory","name":"__pycache__","contents":[
-        {"type":"file","name":"array_unit_tests.cpython-39.pyc"},
-        {"type":"file","name":"classification_f1_score.cpython-39.pyc"}
-      ]},
-      {"type":"directory","name":"machine_level","contents":[
-        {"type":"file","name":"README.txt"},
-        {"type":"file","name":"array_unit_tests.py"}
-      ]},
-      {"type":"directory","name":"model_level","contents":[
-        {"type":"file","name":"classification_f1_score.py"}
-      ]}
-    ]},
-    {"type":"directory","name":"user_data","contents":[
-      {"type":"directory","name":"I004_A0003_D001-13090000_100000","contents":[
-        {"type":"file","name":"data.pickle"}
-      ]},
-      {"type":"file","name":"README.txt"}
-    ]}
-  ]}
-,
-  {"type":"report","directories":197,"files":506}
-]
+[01;34m.[0m
+├── [00mREADME.md[0m
+├── [01;34mcore_libraries[0m
+│   ├── [00mREADME.md[0m
+│   ├── [01;34mbuild[0m
+│   │   └── [01;34mpython[0m
+│   │       ├── [01;34mRNS[0m
+│   │       │   └── [01;34mbuild_RNS_toolbox[0m
+│   │       │       ├── [00mLICENSE[0m
+│   │       │       ├── [00mREADME.md[0m
+│   │       │       ├── [01;34mdist[0m
+│   │       │       │   ├── [00mRNS_toolbox-0.0.1-py3-none-any.whl[0m
+│   │       │       │   └── [01;31mRNS_toolbox-0.0.1.tar.gz[0m
+│   │       │       ├── [00mpyproject.toml[0m
+│   │       │       └── [01;34msrc[0m
+│   │       │           ├── [01;36mRNS_toolbox[0m -> [01;34m../../../../../submodules/RNS_processing_toolbox[0m
+│   │       │           └── [01;34mRNS_toolbox.egg-info[0m
+│   │       │               ├── [00mPKG-INFO[0m
+│   │       │               ├── [00mSOURCES.txt[0m
+│   │       │               ├── [00mdependency_links.txt[0m
+│   │       │               └── [00mtop_level.txt[0m
+│   │       ├── [01;34mactive_wear[0m
+│   │       │   └── [01;34mbuild_LB3_processing[0m
+│   │       │       ├── [00mLICENSE[0m
+│   │       │       ├── [00mREADME.md[0m
+│   │       │       ├── [01;34mdist[0m
+│   │       │       │   ├── [00mLB3_processing-0.0.1-py3-none-any.whl[0m
+│   │       │       │   └── [01;31mLB3_processing-0.0.1.tar.gz[0m
+│   │       │       ├── [00mpyproject.toml[0m
+│   │       │       └── [01;34msrc[0m
+│   │       │           ├── [01;36mLB3_processing[0m -> [01;34m../../../../../submodules/LB3_processing/wearables/tools[0m
+│   │       │           └── [01;34mLB3_processing.egg-info[0m
+│   │       │               ├── [00mPKG-INFO[0m
+│   │       │               ├── [00mSOURCES.txt[0m
+│   │       │               ├── [00mdependency_links.txt[0m
+│   │       │               └── [00mtop_level.txt[0m
+│   │       ├── [01;34mieeg[0m
+│   │       │   ├── [01;34mbuild_CNT_research_tools[0m
+│   │       │   │   ├── [00mLICENSE[0m
+│   │       │   │   ├── [00mREADME.md[0m
+│   │       │   │   ├── [01;34mdist[0m
+│   │       │   │   │   ├── [00mCNT_research_tools-0.0.1-py3-none-any.whl[0m
+│   │       │   │   │   └── [01;31mCNT_research_tools-0.0.1.tar.gz[0m
+│   │       │   │   ├── [00mpyproject.toml[0m
+│   │       │   │   └── [01;34msrc[0m
+│   │       │   │       ├── [01;34mCNT_research_tools[0m
+│   │       │   │       │   ├── [01;36m__init__.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/__init__.py[0m
+│   │       │   │       │   ├── [01;36mautomatic_bipolar_montage.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/automatic_bipolar_montage.py[0m
+│   │       │   │       │   ├── [01;36mbandpower.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/bandpower.py[0m
+│   │       │   │       │   ├── [01;36mclean_labels.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/clean_labels.py[0m
+│   │       │   │       │   ├── [01;36mfind_non_ieeg.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/find_non_ieeg.py[0m
+│   │       │   │       │   ├── [01;36mget_iEEG_data.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/get_iEEG_data.py[0m
+│   │       │   │       │   ├── [01;36mgini.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/gini.py[0m
+│   │       │   │       │   ├── [01;36mline_length.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/line_length.py[0m
+│   │       │   │       │   ├── [01;36mmovmean.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/movmean.py[0m
+│   │       │   │       │   ├── [01;36mplot_iEEG_data.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/plot_iEEG_data.py[0m
+│   │       │   │       │   ├── [01;36mpull_patient_localization.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/pull_patient_localization.py[0m
+│   │       │   │       │   ├── [01;36mpull_sz_ends.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/pull_sz_ends.py[0m
+│   │       │   │       │   └── [01;36mpull_sz_starts.py[0m -> [00m../../../../../../submodules/CNT_research_tools/python/tools/pull_sz_starts.py[0m
+│   │       │   │       └── [01;34mCNT_research_tools.egg-info[0m
+│   │       │   │           ├── [00mPKG-INFO[0m
+│   │       │   │           ├── [00mSOURCES.txt[0m
+│   │       │   │           ├── [00mdependency_links.txt[0m
+│   │       │   │           └── [00mtop_level.txt[0m
+│   │       │   ├── [01;34mbuild_CNT_unit_tests[0m
+│   │       │   │   ├── [00mLICENSE[0m
+│   │       │   │   ├── [00mREADME.md[0m
+│   │       │   │   ├── [01;34mdist[0m
+│   │       │   │   │   ├── [00mCNT_unit_tests-0.0.1-py3-none-any.whl[0m
+│   │       │   │   │   └── [01;31mCNT_unit_tests-0.0.1.tar.gz[0m
+│   │       │   │   ├── [00mpyproject.toml[0m
+│   │       │   │   └── [01;34msrc[0m
+│   │       │   │       ├── [01;34mCNT_unit_tests[0m
+│   │       │   │       │   ├── [00m__init__.py[0m
+│   │       │   │       │   ├── [01;34mmachine_level[0m
+│   │       │   │       │   │   ├── [00m__init__.py[0m
+│   │       │   │       │   │   └── [01;36marray_unit_tests.py[0m -> [00m/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/unit_tests/machine_level/array_unit_tests.py[0m
+│   │       │   │       │   └── [01;34mmodel_level[0m
+│   │       │   │       │       ├── [00m__init__.py[0m
+│   │       │   │       │       └── [01;36mclassification_f1_score.py[0m -> [00m/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/unit_tests/model_level/classification_f1_score.py[0m
+│   │       │   │       └── [01;34mCNT_unit_tests.egg-info[0m
+│   │       │   │           ├── [00mPKG-INFO[0m
+│   │       │   │           ├── [00mSOURCES.txt[0m
+│   │       │   │           ├── [00mdependency_links.txt[0m
+│   │       │   │           └── [00mtop_level.txt[0m
+│   │       │   ├── [01;34mbuild_ieegpy[0m
+│   │       │   │   ├── [01;36mLICENSE.md[0m -> [00m../../../../submodules/ieegpy/LICENSE.md[0m
+│   │       │   │   ├── [01;36mREADME.md[0m -> [00m../../../../submodules/ieegpy/README.md[0m
+│   │       │   │   ├── [01;34mbuild[0m
+│   │       │   │   │   ├── [01;34mbdist.macosx-10.9-x86_64[0m
+│   │       │   │   │   └── [01;34mlib[0m
+│   │       │   │   │       └── [01;34mieeg[0m
+│   │       │   │   │           ├── [00m__init__.py[0m
+│   │       │   │   │           ├── [00mannotation_processing.py[0m
+│   │       │   │   │           ├── [00mauth.py[0m
+│   │       │   │   │           ├── [00mdataset.py[0m
+│   │       │   │   │           ├── [00mieeg_api.py[0m
+│   │       │   │   │           ├── [00mieeg_auth.py[0m
+│   │       │   │   │           ├── [00mmprov_listener.py[0m
+│   │       │   │   │           └── [00mprocessing.py[0m
+│   │       │   │   ├── [01;36mexamples[0m -> [01;34m../../../../submodules/ieegpy/examples[0m
+│   │       │   │   ├── [01;36mieeg[0m -> [01;34m../../../../submodules/ieegpy/ieeg[0m
+│   │       │   │   ├── [00mieeg-1.6-py3-none-any.whl[0m
+│   │       │   │   ├── [01;34mieeg.egg-info[0m
+│   │       │   │   │   ├── [00mPKG-INFO[0m
+│   │       │   │   │   ├── [00mSOURCES.txt[0m
+│   │       │   │   │   ├── [00mdependency_links.txt[0m
+│   │       │   │   │   ├── [00mrequires.txt[0m
+│   │       │   │   │   └── [00mtop_level.txt[0m
+│   │       │   │   ├── [01;36mread_sample.py[0m -> [00m../../../../submodules/ieegpy/read_sample.py[0m
+│   │       │   │   └── [01;36msetup.py[0m -> [00m../../../../submodules/ieegpy/setup.py[0m
+│   │       │   └── [01;34mbuild_pipeline_ieeg[0m
+│   │       │       ├── [00mLICENSE[0m
+│   │       │       ├── [00mREADME.md[0m
+│   │       │       ├── [01;34mdist[0m
+│   │       │       │   ├── [00mpipeline_ieeg-0.0.1-py3-none-any.whl[0m
+│   │       │       │   └── [01;31mpipeline_ieeg-0.0.1.tar.gz[0m
+│   │       │       ├── [00mpyproject.toml[0m
+│   │       │       └── [01;34msrc[0m
+│   │       │           ├── [01;34mpipeline_ieeg[0m
+│   │       │           │   ├── [00m__init__.py[0m
+│   │       │           │   ├── [01;34mdata_pull[0m
+│   │       │           │   │   ├── [00m__init__.py[0m
+│   │       │           │   │   ├── [01;36mcheck_data_repository.py[0m -> [00m/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_pull/check_data_repository.py[0m
+│   │       │           │   │   ├── [01;36mget_dummy_data.py[0m -> [00m/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_pull/get_dummy_data.py[0m
+│   │       │           │   │   └── [01;36mpipeline_datapull_ieeg.py[0m -> [00m/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_pull/pipeline_datapull_ieeg.py[0m
+│   │       │           │   ├── [01;34mdata_quality[0m
+│   │       │           │   │   ├── [00m__init__.py[0m
+│   │       │           │   │   ├── [01;36mdataframe_properties_check.py[0m -> [00m/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_quality/dataframe_properties_check.py[0m
+│   │       │           │   │   ├── [01;36mhash_check.py[0m -> [00m/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_quality/hash_check.py[0m
+│   │       │           │   │   └── [01;36mvariance_check.py[0m -> [00m/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/data_quality/variance_check.py[0m
+│   │       │           │   ├── [01;34mfeature_selection[0m
+│   │       │           │   │   ├── [00m__init__.py[0m
+│   │       │           │   │   └── [01;36mpipeline_feature_selection_ieeg.py[0m -> [00m/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/feature_selection/pipeline_feature_selection_ieeg.py[0m
+│   │       │           │   └── [01;34mpreprocessing[0m
+│   │       │           │       ├── [00m__init__.py[0m
+│   │       │           │       └── [01;36mpipeline_preprocessing_ieeg.py[0m -> [00m/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/pipeline_ieeg/preprocessing/pipeline_preprocessing_ieeg.py[0m
+│   │       │           └── [01;34mpipeline_ieeg.egg-info[0m
+│   │       │               ├── [00mPKG-INFO[0m
+│   │       │               ├── [00mSOURCES.txt[0m
+│   │       │               ├── [00mdependency_links.txt[0m
+│   │       │               └── [00mtop_level.txt[0m
+│   │       └── [01;34mimaging[0m
+│   │           └── [01;34mbuild_bctpy[0m
+│   │               ├── [00mbctpy-0.6.0-py3-none-any.whl[0m
+│   │               └── [01;31mbctpy-0.6.0.tar.gz[0m
+│   ├── [01;34mmatlab[0m
+│   │   └── [00mREADME.md[0m
+│   ├── [01;34mpython[0m
+│   │   ├── [01;34mRNS[0m
+│   │   │   ├── [00mREADME.txt[0m
+│   │   │   ├── [00mRNS_toolbox-0.0.1-py3-none-any.whl[0m
+│   │   │   └── [01;31mRNS_toolbox-0.0.1.tar.gz[0m
+│   │   ├── [01;34mactive_wear[0m
+│   │   │   ├── [00mLB3_processing-0.0.1-py3-none-any.whl[0m
+│   │   │   ├── [01;31mLB3_processing-0.0.1.tar.gz[0m
+│   │   │   └── [00mREADME.txt[0m
+│   │   ├── [01;34mieeg[0m
+│   │   │   ├── [00mCNT_research_tools-0.0.1-py3-none-any.whl[0m
+│   │   │   ├── [00mCNT_unit_tests-0.0.1-py3-none-any.whl[0m
+│   │   │   ├── [00mREADME.md[0m
+│   │   │   ├── [00mieeg-1.6-py3-none-any.whl[0m
+│   │   │   ├── [00mieeg_environment.yml[0m
+│   │   │   └── [00mpipeline_ieeg-0.0.1-py3-none-any.whl[0m
+│   │   └── [01;34mimaging[0m
+│   │       ├── [00mREADME.txt[0m
+│   │       ├── [00mbctpy-0.6.0-py3-none-any.whl[0m
+│   │       └── [01;31mbctpy-0.6.0.tar.gz[0m
+│   └── [01;34msubmodules[0m
+│       ├── [01;34mCNT_research_tools[0m
+│       │   ├── [01;34mMatlab[0m
+│       │   │   ├── [00mReadMe.m[0m
+│       │   │   ├── [01;34martifact_identification[0m
+│       │   │   │   └── [00midentify_bad_chs.m[0m
+│       │   │   ├── [01;34mchannel_processing[0m
+│       │   │   │   ├── [00mdecompose_labels.m[0m
+│       │   │   │   ├── [00mfind_non_intracranial.m[0m
+│       │   │   │   └── [00mreconcile_ch_names.m[0m
+│       │   │   ├── [01;34mdata_import[0m
+│       │   │   │   └── [00mdownload_ieeg_data.m[0m
+│       │   │   ├── [01;34mfilters[0m
+│       │   │   │   ├── [00mbandpass_filter.m[0m
+│       │   │   │   └── [00mnotch_filter.m[0m
+│       │   │   ├── [01;34mother_eeg_processing[0m
+│       │   │   │   └── [00mpre_whiten.m[0m
+│       │   │   ├── [01;34mreferences[0m
+│       │   │   │   ├── [00mbipolar_montage.m[0m
+│       │   │   │   ├── [00mcommon_average_reference.m[0m
+│       │   │   │   └── [00mlaplacian_reference.m[0m
+│       │   │   ├── [01;34mtesting[0m
+│       │   │   │   └── [00mpipeline_test_clip.m[0m
+│       │   │   └── [01;34mvisualization[0m
+│       │   │       └── [00mshow_eeg.m[0m
+│       │   ├── [00mREADME.md[0m
+│       │   ├── [00mconfig_example.json[0m
+│       │   └── [01;34mpython[0m
+│       │       ├── [00m99-example_ieeg.py[0m
+│       │       ├── [00mieegpy-base.yml[0m
+│       │       ├── [00mieegpy.yml[0m
+│       │       └── [01;34mtools[0m
+│       │           ├── [00m__init__.py[0m
+│       │           ├── [01;34m__pycache__[0m
+│       │           │   ├── [00m__init__.cpython-38.pyc[0m
+│       │           │   ├── [00madd_img_to_ppt.cpython-38.pyc[0m
+│       │           │   ├── [00mautomatic_bipolar_montage.cpython-38.pyc[0m
+│       │           │   ├── [00mbandpower.cpython-38.pyc[0m
+│       │           │   ├── [00mclean_channels.cpython-38.pyc[0m
+│       │           │   ├── [00mget_iEEG_data.cpython-310.pyc[0m
+│       │           │   ├── [00mget_iEEG_data.cpython-36.pyc[0m
+│       │           │   ├── [00mget_iEEG_data.cpython-37.pyc[0m
+│       │           │   ├── [00mget_iEEG_data.cpython-38.pyc[0m
+│       │           │   ├── [00mgini.cpython-38.pyc[0m
+│       │           │   ├── [00mline_length.cpython-38.pyc[0m
+│       │           │   ├── [00mmovmean.cpython-38.pyc[0m
+│       │           │   ├── [00mplot_iEEG_data.cpython-38.pyc[0m
+│       │           │   ├── [00mpull_patient_localization.cpython-310.pyc[0m
+│       │           │   ├── [00mpull_patient_localization.cpython-37.pyc[0m
+│       │           │   ├── [00mpull_patient_localization.cpython-38.pyc[0m
+│       │           │   ├── [00mpull_sz_ends.cpython-38.pyc[0m
+│       │           │   └── [00mpull_sz_starts.cpython-38.pyc[0m
+│       │           ├── [00mautomatic_bipolar_montage.py[0m
+│       │           ├── [00mbandpower.py[0m
+│       │           ├── [00mclean_labels.py[0m
+│       │           ├── [00mfind_non_ieeg.py[0m
+│       │           ├── [00mget_iEEG_data.py[0m
+│       │           ├── [00mgini.py[0m
+│       │           ├── [00mline_length.py[0m
+│       │           ├── [00mmovmean.py[0m
+│       │           ├── [00mplot_iEEG_data.py[0m
+│       │           ├── [00mpull_patient_localization.py[0m
+│       │           ├── [00mpull_sz_ends.py[0m
+│       │           └── [00mpull_sz_starts.py[0m
+│       ├── [01;34mLB3_processing[0m
+│       │   └── [01;34mwearables[0m
+│       │       └── [01;34mtools[0m
+│       │           ├── [00mapple_parse.py[0m
+│       │           ├── [00mhelpers_jp.py[0m
+│       │           ├── [00mparse_convert_hr_acc_data.ipynb[0m
+│       │           ├── [00mpatient_summary.ipynb[0m
+│       │           ├── [00mplot_timeline.py[0m
+│       │           ├── [00msleep_parser.ipynb[0m
+│       │           └── [00msubject_metadata_jp.json[0m
+│       ├── [00mREADME.md[0m
+│       ├── [01;34mRNS_processing_toolbox[0m
+│       │   ├── [00mREADME.md[0m
+│       │   ├── [00mconfig_example.JSON[0m
+│       │   ├── [01;34mlib[0m
+│       │   │   └── [00mMEF_writer.jar[0m
+│       │   ├── [01;34mmatlab_tools[0m
+│       │   │   ├── [01;34mecog[0m
+│       │   │   │   ├── [00mRNShistogram.m[0m
+│       │   │   │   ├── [00mclassifyECoG.m[0m
+│       │   │   │   ├── [00mfindStim.m[0m
+│       │   │   │   └── [00mgetFeatures.m[0m
+│       │   │   ├── [00mexample_analysis.m[0m
+│       │   │   ├── [01;34mpipelines[0m
+│       │   │   │   ├── [00mRNS_raw_feature_pipeline.m[0m
+│       │   │   │   ├── [00mepisode_detection_pipeline.m[0m
+│       │   │   │   ├── [00mprocess_raw.m[0m
+│       │   │   │   └── [00mstim_detection_pipeline.m[0m
+│       │   │   ├── [01;34mtest[0m
+│       │   │   │   └── [00mtest_filter_windows.m[0m
+│       │   │   ├── [01;34mutils[0m
+│       │   │   │   ├── [00mfilterWindows.m[0m
+│       │   │   │   ├── [00mgetDetectionsInRecordedEvents.m[0m
+│       │   │   │   ├── [00mgetEpisodeDurationsFileInfo.m[0m
+│       │   │   │   ├── [00midx2event.m[0m
+│       │   │   │   ├── [00midx2time.m[0m
+│       │   │   │   ├── [00mloadRNSptData.m[0m
+│       │   │   │   ├── [00mparsePDMS_file.m[0m
+│       │   │   │   ├── [00mparsePDMSdetections.m[0m
+│       │   │   │   └── [00mptPth.m[0m
+│       │   │   └── [01;34mvisualize[0m
+│       │   │       └── [00mvis_event.m[0m
+│       │   ├── [01;34mprops[0m
+│       │   │   ├── [00mdata_system.png[0m
+│       │   │   └── [00msystem_docs.pptx[0m
+│       │   ├── [00mrns_processing_toolbox.yml[0m
+│       │   └── [01;34mrns_py_tools[0m
+│       │       ├── [00mLICENSE[0m
+│       │       ├── [01;34mfunctions[0m
+│       │       │   ├── [00mNPDataHandler.py[0m
+│       │       │   ├── [01;32mPDMSpdf_to_csv.py[0m
+│       │       │   ├── [00m__init__.py[0m
+│       │       │   ├── [00mpennsieve_tools.py[0m
+│       │       │   ├── [01;32mutils.py[0m
+│       │       │   └── [01;32mvisualize.py[0m
+│       │       ├── [00mpennsieve_pipeline.py[0m
+│       │       ├── [00mprocess_raw.py[0m
+│       │       └── [01;32mtest_pytools.py[0m
+│       ├── [01;34mbctpy[0m
+│       │   ├── [00mCHANGELOG.md[0m
+│       │   ├── [00mCREDITS[0m
+│       │   ├── [00mLICENSE[0m
+│       │   ├── [00mREADME.md[0m
+│       │   ├── [01;34mbct[0m
+│       │   │   ├── [00m__init__.py[0m
+│       │   │   ├── [01;34malgorithms[0m
+│       │   │   │   ├── [00m__init__.py[0m
+│       │   │   │   ├── [00mcentrality.py[0m
+│       │   │   │   ├── [00mclustering.py[0m
+│       │   │   │   ├── [00mcore.py[0m
+│       │   │   │   ├── [00mdegree.py[0m
+│       │   │   │   ├── [00mdistance.py[0m
+│       │   │   │   ├── [00mgenerative.py[0m
+│       │   │   │   ├── [00mmodularity.py[0m
+│       │   │   │   ├── [00mmotifs.py[0m
+│       │   │   │   ├── [00mphysical_connectivity.py[0m
+│       │   │   │   ├── [00mreference.py[0m
+│       │   │   │   └── [00msimilarity.py[0m
+│       │   │   ├── [00mcitations.py[0m
+│       │   │   ├── [00mdue.py[0m
+│       │   │   ├── [00mmotif34lib.mat[0m
+│       │   │   ├── [00mnbs.py[0m
+│       │   │   ├── [01;34mutils[0m
+│       │   │   │   ├── [00m__init__.py[0m
+│       │   │   │   ├── [00mmiscellaneous_utilities.py[0m
+│       │   │   │   ├── [00mother.py[0m
+│       │   │   │   └── [00mvisualization.py[0m
+│       │   │   └── [00mversion.py[0m
+│       │   ├── [01;34mbctpy.egg-info[0m
+│       │   │   ├── [00mPKG-INFO[0m
+│       │   │   ├── [00mSOURCES.txt[0m
+│       │   │   ├── [00mdependency_links.txt[0m
+│       │   │   ├── [00mrequires.txt[0m
+│       │   │   └── [00mtop_level.txt[0m
+│       │   ├── [01;34mdocs[0m
+│       │   │   ├── [00mMakefile[0m
+│       │   │   ├── [01;34m_build[0m
+│       │   │   │   ├── [01;34mdoctrees[0m
+│       │   │   │   │   ├── [01;34m_templates[0m
+│       │   │   │   │   │   └── [00mfunction.doctree[0m
+│       │   │   │   │   ├── [00mbct.doctree[0m
+│       │   │   │   │   ├── [00menvironment.pickle[0m
+│       │   │   │   │   ├── [00mindex.doctree[0m
+│       │   │   │   │   ├── [00mmodules.doctree[0m
+│       │   │   │   │   └── [00mstupid.doctree[0m
+│       │   │   │   └── [01;34mhtml[0m
+│       │   │   │       ├── [01;34m_sources[0m
+│       │   │   │       │   ├── [01;34m_templates[0m
+│       │   │   │       │   │   └── [00mfunction.txt[0m
+│       │   │   │       │   ├── [00mbct.txt[0m
+│       │   │   │       │   ├── [00mindex.txt[0m
+│       │   │   │       │   ├── [00mmodules.txt[0m
+│       │   │   │       │   └── [00mstupid.txt[0m
+│       │   │   │       ├── [01;34m_static[0m
+│       │   │   │       │   ├── [01;35majax-loader.gif[0m
+│       │   │   │       │   ├── [00mbasic.css[0m
+│       │   │   │       │   ├── [00mcomment-bright.png[0m
+│       │   │   │       │   ├── [00mcomment-close.png[0m
+│       │   │   │       │   ├── [00mcomment.png[0m
+│       │   │   │       │   ├── [00mdefault.css[0m
+│       │   │   │       │   ├── [00mdoctools.js[0m
+│       │   │   │       │   ├── [00mdown-pressed.png[0m
+│       │   │   │       │   ├── [00mdown.png[0m
+│       │   │   │       │   ├── [00mfile.png[0m
+│       │   │   │       │   ├── [00mjquery.js[0m
+│       │   │   │       │   ├── [00mminus.png[0m
+│       │   │   │       │   ├── [00mplus.png[0m
+│       │   │   │       │   ├── [00mpygments.css[0m
+│       │   │   │       │   ├── [00msearchtools.js[0m
+│       │   │   │       │   ├── [00msidebar.js[0m
+│       │   │   │       │   ├── [00munderscore.js[0m
+│       │   │   │       │   ├── [00mup-pressed.png[0m
+│       │   │   │       │   ├── [00mup.png[0m
+│       │   │   │       │   └── [00mwebsupport.js[0m
+│       │   │   │       ├── [01;34m_templates[0m
+│       │   │   │       │   └── [00mfunction.html[0m
+│       │   │   │       ├── [00mbct.html[0m
+│       │   │   │       ├── [00mgenindex.html[0m
+│       │   │   │       ├── [00mindex.html[0m
+│       │   │   │       ├── [00mmodules.html[0m
+│       │   │   │       ├── [00mnp-modindex.html[0m
+│       │   │   │       ├── [00mobjects.inv[0m
+│       │   │   │       ├── [00mpy-modindex.html[0m
+│       │   │   │       ├── [00msearch.html[0m
+│       │   │   │       ├── [00msearchindex.js[0m
+│       │   │   │       └── [00mstupid.html[0m
+│       │   │   ├── [01;34m_templates[0m
+│       │   │   │   └── [00mfunction.rst[0m
+│       │   │   ├── [00mbct.rst[0m
+│       │   │   ├── [00mconf.py[0m
+│       │   │   ├── [00mindex.rst[0m
+│       │   │   ├── [00mmodules.rst[0m
+│       │   │   └── [01;34msphinxext[0m
+│       │   │       └── [01;34mnumpy_ext[0m
+│       │   │           ├── [00m__init__.py[0m
+│       │   │           ├── [00mdocscrape.py[0m
+│       │   │           ├── [00mdocscrape_sphinx.py[0m
+│       │   │           └── [00mnumpydoc.py[0m
+│       │   ├── [00mfunction_reference.html[0m
+│       │   ├── [00mrequirements.txt[0m
+│       │   ├── [00msetup.py[0m
+│       │   ├── [01;34mtest[0m
+│       │   │   ├── [00m__init__.py[0m
+│       │   │   ├── [00mbasic_test.py[0m
+│       │   │   ├── [00mcentrality_test.py[0m
+│       │   │   ├── [00mclustering_test.py[0m
+│       │   │   ├── [00mconftest.py[0m
+│       │   │   ├── [00mcore_test.py[0m
+│       │   │   ├── [00mdistance_test.py[0m
+│       │   │   ├── [00mduecredit_test.py[0m
+│       │   │   ├── [01;34mfailing_cases[0m
+│       │   │   │   └── [00mmodularity_dir_example.csv[0m
+│       │   │   ├── [00mload_samples.py[0m
+│       │   │   ├── [01;34mmats[0m
+│       │   │   │   ├── [00msample_data.mat[0m
+│       │   │   │   ├── [00msample_data.npy[0m
+│       │   │   │   ├── [00msample_directed.mat[0m
+│       │   │   │   ├── [00msample_directed.npy[0m
+│       │   │   │   ├── [00msample_directed_gc.mat[0m
+│       │   │   │   ├── [00msample_directed_gc.npy[0m
+│       │   │   │   ├── [00msample_group_dsi.mat[0m
+│       │   │   │   ├── [00msample_group_dsi.npy[0m
+│       │   │   │   ├── [00msample_group_fmri.mat[0m
+│       │   │   │   ├── [00msample_group_fmri.npy[0m
+│       │   │   │   ├── [00msample_group_qball.mat[0m
+│       │   │   │   ├── [00msample_group_qball.npy[0m
+│       │   │   │   ├── [00msample_partition.mat[0m
+│       │   │   │   ├── [00msample_partition.npy[0m
+│       │   │   │   ├── [00msample_pc.mat[0m
+│       │   │   │   ├── [00msample_pc.npy[0m
+│       │   │   │   ├── [00msample_signed.mat[0m
+│       │   │   │   ├── [00msample_signed.npy[0m
+│       │   │   │   ├── [00msample_signed_partition.mat[0m
+│       │   │   │   ├── [00msample_zi.mat[0m
+│       │   │   │   └── [00msample_zi.npy[0m
+│       │   │   ├── [00mmodularity_derived_metrics_test.py[0m
+│       │   │   ├── [00mmodularity_test.py[0m
+│       │   │   ├── [00mnbs_test.py[0m
+│       │   │   ├── [00mnodals_test.py[0m
+│       │   │   ├── [00mpartition_distance_test.py[0m
+│       │   │   ├── [00mreference_test.py[0m
+│       │   │   ├── [01;32msimple_script.py[0m
+│       │   │   └── [00mvery_long_test.py[0m
+│       │   └── [00mtox.ini[0m
+│       ├── [01;34mepycom[0m
+│       │   ├── [00mLICENSE.txt[0m
+│       │   ├── [01;34mdoc[0m
+│       │   │   ├── [00mMakefile[0m
+│       │   │   ├── [00mconf.py[0m
+│       │   │   ├── [00mfeature_extraction.rst[0m
+│       │   │   └── [00mindex.rst[0m
+│       │   ├── [01;34mepycom[0m
+│       │   │   ├── [00m__init__.py[0m
+│       │   │   ├── [01;34martifact_detection[0m
+│       │   │   │   ├── [00m__init__.py[0m
+│       │   │   │   ├── [00mpowerline_noise.py[0m
+│       │   │   │   ├── [00msaturation.py[0m
+│       │   │   │   └── [01;34mtests[0m
+│       │   │   │       ├── [00mconftest.py[0m
+│       │   │   │       └── [00mtest_artifact_detection.py[0m
+│       │   │   ├── [01;34mbivariate[0m
+│       │   │   │   ├── [00m__init__.py[0m
+│       │   │   │   ├── [00mcoherence.py[0m
+│       │   │   │   ├── [00mlinear_correlation.py[0m
+│       │   │   │   ├── [00mphase_consistency.py[0m
+│       │   │   │   ├── [00mphase_lag_index.py[0m
+│       │   │   │   ├── [00mphase_synchrony.py[0m
+│       │   │   │   ├── [00mrelative_entropy.py[0m
+│       │   │   │   ├── [00mspectra_multiplication.py[0m
+│       │   │   │   └── [01;34mtests[0m
+│       │   │   │       ├── [00mconftest.py[0m
+│       │   │   │       └── [00mtest_bivariate.py[0m
+│       │   │   ├── [01;34mevent_detection[0m
+│       │   │   │   ├── [00m__init__.py[0m
+│       │   │   │   ├── [01;34mhfo[0m
+│       │   │   │   │   ├── [00m__init__.py[0m
+│       │   │   │   │   ├── [00mcs_detector.py[0m
+│       │   │   │   │   ├── [00mhilbert_detector.py[0m
+│       │   │   │   │   ├── [00mll_detector.py[0m
+│       │   │   │   │   └── [00mrms_detector.py[0m
+│       │   │   │   ├── [01;34mspike[0m
+│       │   │   │   │   ├── [00m__init__.py[0m
+│       │   │   │   │   └── [00mbarkmeier_detector.py[0m
+│       │   │   │   └── [01;34mtests[0m
+│       │   │   │       ├── [00mconftest.py[0m
+│       │   │   │       └── [00mtest_event_detection.py[0m
+│       │   │   ├── [01;34msimulation[0m
+│       │   │   │   ├── [00m__init__.py[0m
+│       │   │   │   ├── [00mcreate_simulated.py[0m
+│       │   │   │   └── [01;34mtests[0m
+│       │   │   │       └── [00mtest_simulation.py[0m
+│       │   │   ├── [01;34munivariate[0m
+│       │   │   │   ├── [00m__init__.py[0m
+│       │   │   │   ├── [00mapproximate_entropy.py[0m
+│       │   │   │   ├── [00marr.py[0m
+│       │   │   │   ├── [00mhjorth_complexity.py[0m
+│       │   │   │   ├── [00mhjorth_mobility.py[0m
+│       │   │   │   ├── [00mlyapunov_exponent.py[0m
+│       │   │   │   ├── [00mmean_vector_length.py[0m
+│       │   │   │   ├── [00mmodulation_index.py[0m
+│       │   │   │   ├── [00mphase_locking_value.py[0m
+│       │   │   │   ├── [00mpower_spectral_entropy.py[0m
+│       │   │   │   ├── [00msample_entropy.py[0m
+│       │   │   │   ├── [00mshannon_entropy.py[0m
+│       │   │   │   ├── [00msignal_stats.py[0m
+│       │   │   │   └── [01;34mtests[0m
+│       │   │   │       ├── [00mconftest.py[0m
+│       │   │   │       └── [00mtest_univariate.py[0m
+│       │   │   ├── [01;34mutils[0m
+│       │   │   │   ├── [00m__init__.py[0m
+│       │   │   │   ├── [00mdata_operations.py[0m
+│       │   │   │   ├── [00mmethod.py[0m
+│       │   │   │   ├── [00msignal_transforms.py[0m
+│       │   │   │   ├── [01;34mtests[0m
+│       │   │   │   │   ├── [00mconftest.py[0m
+│       │   │   │   │   └── [00mtest_utils.py[0m
+│       │   │   │   ├── [00mthresholds.py[0m
+│       │   │   │   └── [00mtools.py[0m
+│       │   │   └── [01;34mvalidation[0m
+│       │   │       ├── [00m__init__.py[0m
+│       │   │       ├── [00mfeature_evaluation.py[0m
+│       │   │       ├── [00mprecision_recall.py[0m
+│       │   │       ├── [01;34mtests[0m
+│       │   │       │   ├── [00mconftest.py[0m
+│       │   │       │   └── [00mtest_validation.py[0m
+│       │   │       └── [00mutil.py[0m
+│       │   ├── [00mreadme.rst[0m
+│       │   ├── [00msetup.cfg[0m
+│       │   └── [00msetup.py[0m
+│       └── [01;34mieegpy[0m
+│           ├── [00mLICENSE.md[0m
+│           ├── [00mREADME.md[0m
+│           ├── [01;34mexamples[0m
+│           │   ├── [00mannotations.py[0m
+│           │   ├── [00mdataset_start_time.py[0m
+│           │   ├── [00mget_data.py[0m
+│           │   ├── [00mmontages.py[0m
+│           │   └── [00mmprov_example.py[0m
+│           ├── [01;34mieeg[0m
+│           │   ├── [00m__init__.py[0m
+│           │   ├── [00mannotation_processing.py[0m
+│           │   ├── [00mauth.py[0m
+│           │   ├── [00mdataset.py[0m
+│           │   ├── [00mieeg_api.py[0m
+│           │   ├── [00mieeg_auth.py[0m
+│           │   ├── [00mmprov_listener.py[0m
+│           │   └── [00mprocessing.py[0m
+│           ├── [00mread_sample.py[0m
+│           └── [00msetup.py[0m
+├── [01;34mdata_pointers[0m
+│   ├── [01;34mactive_wear[0m
+│   │   └── [00mnotes.txt[0m
+│   ├── [01;34mieeg[0m
+│   │   ├── [00mcached_ieeg_data.csv[0m
+│   │   └── [00mnotes.txt[0m
+│   └── [01;34mimages[0m
+│       └── [00mnotes.txt[0m
+├── [01;34mdocuments[0m
+│   ├── [01;34mSOP[0m
+│   │   └── [01;34mPioneer[0m
+│   │       └── [00mPioneer-iEEG-v0_2.docx[0m
+│   ├── [01;34mlibraries[0m
+│   │   ├── [01;34mCNT_research_tools[0m
+│   │   │   └── [00mModules.md[0m
+│   │   └── [01;34mepycom[0m
+│   │       ├── [01;34martifact_detection[0m
+│   │       │   └── [00mModules.md[0m
+│   │       ├── [01;34mbivariate[0m
+│   │       │   └── [00mModules.md[0m
+│   │       ├── [01;34mevent_detection[0m
+│   │       │   └── [00mModules.md[0m
+│   │       ├── [01;34msimulation[0m
+│   │       │   └── [00mModules.md[0m
+│   │       ├── [01;34munivariate[0m
+│   │       │   └── [00mModules.md[0m
+│   │       ├── [01;34mutils[0m
+│   │       │   └── [00mModules.md[0m
+│   │       └── [01;34mvalidation[0m
+│   │           └── [00mModules.md[0m
+│   └── [01;34mworkflows[0m
+│       └── [01;34mPioneer[0m
+│           ├── [00mPioneer_Chatbot_v0.2.drawio.png[0m
+│           └── [00mPioneer_iEEG_v0.2.drawio.png[0m
+├── [01;34mexamples[0m
+│   ├── [01;34mieeg[0m
+│   │   └── [00mREADME.md[0m
+│   └── [01;34mpipeline[0m
+│       ├── [01;34mRNS[0m
+│       │   └── [00mREADME.md[0m
+│       └── [01;34mieeg[0m
+│           ├── [00mREADME.md[0m
+│           ├── [00miEEG_example.ipynb[0m
+│           └── [01;36mieeg_workflow.py[0m -> [00m/Users/bjprager/Documents/REPOSITORIES/CNT_PROJECT_TEMPLATE/CNT_Development/scripts/python/users/bjprager/ieeg_workflow.py[0m
+├── [01;34mreference_data[0m
+│   ├── [00mREADME.txt[0m
+│   ├── [01;34mieeg[0m
+│   │   └── [01;34mmanual_validation[0m
+│   │       ├── [01;34mDATA[0m
+│   │       │   ├── [01;34mAll[0m
+│   │       │   │   └── [00mAll.csv[0m
+│   │       │   ├── [01;34mAllSeizureTimes[0m
+│   │       │   │   └── [00mAllSeizureTimes.csv[0m
+│   │       │   ├── [01;34mCoherence run[0m
+│   │       │   │   └── [00mCoherence run.csv[0m
+│   │       │   ├── [01;34mEDF pipeline[0m
+│   │       │   │   └── [00mEDF pipeline.csv[0m
+│   │       │   ├── [01;34mFileStartTimes[0m
+│   │       │   │   └── [00mFileStartTimes.csv[0m
+│   │       │   ├── [01;34mJim SOZ[0m
+│   │       │   │   └── [00mJim SOZ.csv[0m
+│   │       │   ├── [01;34mPeri-ictal[0m
+│   │       │   │   └── [00mPeri-ictal.csv[0m
+│   │       │   ├── [01;34mPre-implant data[0m
+│   │       │   │   └── [00mPre-implant data.csv[0m
+│   │       │   ├── [01;34mSOZ[0m
+│   │       │   │   └── [00mSOZ.csv[0m
+│   │       │   ├── [01;34mSpikeCounts[0m
+│   │       │   │   └── [00mSpikeCounts.csv[0m
+│   │       │   ├── [01;34mStereo[0m
+│   │       │   │   └── [00mStereo.csv[0m
+│   │       │   └── [01;34mValidation Sw[0m
+│   │       │       └── [00mValidation Sw.csv[0m
+│   │       ├── [00mREADME.txt[0m
+│   │       ├── [00mmanual_validation.xlsx[0m
+│   │       └── [00mvalidation_to_csv.py[0m
+│   └── [01;34mimaging[0m
+│       └── [00mPLACEHOLDER.txt[0m
+├── [00mrespoistory_structure.json[0m
+├── [01;34msample_data[0m
+│   ├── [01;34mactive_wear[0m
+│   │   └── [00mPLACEHOLDER.txt[0m
+│   ├── [01;34mieeg[0m
+│   │   └── [00mnotes.txt[0m
+│   └── [01;34mimaging[0m
+│       └── [01;35mSirius_Mira_01.jpg[0m
+├── [01;34mscripts[0m
+│   ├── [01;32mlinux_setenv.sh[0m
+│   ├── [01;32mmac_setenv.sh[0m
+│   ├── [01;34mmatlab[0m
+│   │   └── [00mPLACEHOLDER.txt[0m
+│   └── [01;34mpython[0m
+│       ├── [01;34mbuild_template[0m
+│       │   ├── [00mLICENSE[0m
+│       │   ├── [00mREADME.md[0m
+│       │   ├── [01;34mdist[0m
+│       │   │   ├── [00mpipeline_ieeg-0.0.1-py3-none-any.whl[0m
+│       │   │   └── [01;31mpipeline_ieeg-0.0.1.tar.gz[0m
+│       │   ├── [00mpyproject.toml[0m
+│       │   └── [01;34msrc[0m
+│       │       ├── [01;34mpipeline_ieeg[0m
+│       │       │   ├── [00m__init__.py[0m
+│       │       │   ├── [01;34mdata_pull[0m
+│       │       │   │   ├── [00m__init__.py[0m
+│       │       │   │   ├── [00mcheck_data_repository.py[0m
+│       │       │   │   ├── [00mget_dummy_data.py[0m
+│       │       │   │   └── [00mpipeline_datapull_ieeg.py[0m
+│       │       │   ├── [01;34mdata_quality[0m
+│       │       │   │   ├── [00m__init__.py[0m
+│       │       │   │   ├── [00mdataframe_properties_check.py[0m
+│       │       │   │   ├── [00mhash_check.py[0m
+│       │       │   │   └── [00mvariance_check.py[0m
+│       │       │   ├── [01;34mfeature_selection[0m
+│       │       │   │   ├── [00m__init__.py[0m
+│       │       │   │   └── [00mpipeline_feature_selection_ieeg.py[0m
+│       │       │   └── [01;34mpreprocessing[0m
+│       │       │       ├── [00m__init__.py[0m
+│       │       │       └── [00mpipeline_preprocessing_ieeg.py[0m
+│       │       └── [01;34mpipeline_ieeg.egg-info[0m
+│       │           ├── [00mPKG-INFO[0m
+│       │           ├── [00mSOURCES.txt[0m
+│       │           ├── [00mdependency_links.txt[0m
+│       │           └── [00mtop_level.txt[0m
+│       └── [01;34musers[0m
+│           ├── [00mREADME.md[0m
+│           └── [01;34mbjprager[0m
+│               ├── [00mieeg_workflow.py[0m
+│               ├── [00mmake_library_docs.py[0m
+│               └── [01;34mpipeline_ieeg[0m
+│                   ├── [01;34mdata_pull[0m
+│                   │   ├── [00mcheck_data_repository.py[0m
+│                   │   ├── [00mget_dummy_data.py[0m
+│                   │   └── [00mpipeline_datapull_ieeg.py[0m
+│                   ├── [01;34mdata_push[0m
+│                   │   └── [00mPLACEHOLDER.txt[0m
+│                   ├── [01;34mdata_quality[0m
+│                   │   ├── [00mdataframe_properties_check.py[0m
+│                   │   ├── [00mhash_check.py[0m
+│                   │   └── [00mvariance_check.py[0m
+│                   ├── [01;34mfeature_selection[0m
+│                   │   └── [00mpipeline_feature_selection_ieeg.py[0m
+│                   ├── [01;34mpreprocessing[0m
+│                   │   └── [00mpipeline_preprocessing_ieeg.py[0m
+│                   ├── [01;34mtesting[0m
+│                   │   ├── [00m__init__.py[0m
+│                   │   └── [00macceptance_criteria.py[0m
+│                   └── [01;34mtraining[0m
+│                       ├── [00mPLACEHOLDER.txt[0m
+│                       └── [00m__init__.py[0m
+├── [01;34munit_tests[0m
+│   ├── [01;34m__pycache__[0m
+│   │   ├── [00marray_unit_tests.cpython-39.pyc[0m
+│   │   └── [00mclassification_f1_score.cpython-39.pyc[0m
+│   ├── [01;34mmachine_level[0m
+│   │   ├── [00mREADME.txt[0m
+│   │   └── [00marray_unit_tests.py[0m
+│   └── [01;34mmodel_level[0m
+│       └── [00mclassification_f1_score.py[0m
+└── [01;34muser_data[0m
+    ├── [01;34mI004_A0003_D001-13090000_100000[0m
+    │   └── [01;32mdata.pickle[0m
+    └── [00mREADME.txt[0m
+
+197 directories, 506 files
