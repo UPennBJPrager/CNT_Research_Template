@@ -41,7 +41,7 @@ project to ensure your dependencies and code are properly referenced. Examples f
 A hyperlink enabled repository tree is available within the [repository_structure](./repository_structure.md) markdown file. We demonstrate the use of git-ginored files and folders by displaying those 
 entries with a :warning: symbol.
 
-A short description of some of the top-level directories are as follows:
+A short description of some of the top-level directories and files are as follows:
 
 ### core_libraries
 This folder contains the submodules and build files that make up the core libraries used for lab-wide projects.
@@ -49,8 +49,11 @@ This folder contains the submodules and build files that make up the core librar
 ### data_pointers
 This folder contains pointers to data contained on Borel and Lief. Data requests should reference these data pointers to prevent duplication before downloading new data.
 
+### documents
+This folder contains various research documents associated with a project (i.e. SoPs, Pipeline diagrams, etc.) as well as code documentation (e.g.document strings) for the various libraries.
+
 ### examples
-This folder contains example python and matlab scripts for using common libraries and environments.
+This folder contains example python and matlab scripts for various research tasks as well as how to use common libraries and environments.
 
 ### reference_data
 This folder contains data that can be used for building targets or conducting unit tests.
@@ -59,13 +62,18 @@ This folder contains data that can be used for building targets or conducting un
 This folder contains sample data that might be used in any of the lab-wide projects.
 
 ### scripts
-This folder contains user-defined scripts.
+This folder contains user-defined scripts. 
 
 ### unit_tests
 This folder contains unit tests for validating new/altered code at both the machine level and model level.
 
 ### user_data
 This folder is meant to store user data. Data in this repository is private by default and will not be uploaded to public repositories.
+
+### .gitignore
+
+This file helps prevent certain files from being uploaded to the public repository. This can be to avoid excess data volumes, or to protect sensitive information. By default, the ignored files and 
+folders are designed for the development of a lab-wide template, and users should adjust the settings to match their own needs.
 
 # Virtual Environments
 
