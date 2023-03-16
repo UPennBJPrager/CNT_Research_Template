@@ -30,12 +30,18 @@ where foo is the name of the library of interest.
 
 ## Matlab
 
-:woman_shrugging:
+:woman_shrugging: In development.
 
 # Documentation
-This template is intended to be used as both an environment and a simple wrapper for research code. Before beginning, we highly recommend that a virtual environment is made for each project to ensure dependencies are properly referenced and code can be reproduced across numerous systems. Examples for creating virtual environments is provided below.
+This template is intended to be used as both an environment and a simple wrapper for research code. Before beginning, we highly recommend that a virtual environment (or equivalent) is created for each 
+project to ensure your dependencies and code are properly referenced. Examples for creating virtual environments is provided below.
 
 ## Repository Structure
+
+A hyperlink enabled repository tree is available within the [repository_structure](./repository_structure.md) markdown file. We demonstrate the use of git-ginored files and folders by displaying those 
+entries with a :warning: symbol.
+
+A short description of some of the top-level directories are as follows:
 
 ### core_libraries
 This folder contains the submodules and build files that make up the core libraries used for lab-wide projects.
