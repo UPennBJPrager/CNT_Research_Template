@@ -34,3 +34,8 @@ Akash Pattnaik, William Ojemann, University of Pennsylvania
 Brittnay Scheid, University of Pennsylvania
 ### Repository Link
 [RNS Toolbox](https://github.com/penn-cnt/RNS_processing_toolbox)
+
+## Nibabel
+### Author(s)
+### Repository Link
+[Nibabel](https://github.com/nipy/nibabel)
