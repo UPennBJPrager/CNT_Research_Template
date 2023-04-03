@@ -25,3 +25,6 @@
 [submodule "core_libraries/submodules/RNS_processing_toolbox"]
 	path = core_libraries/submodules/RNS_processing_toolbox
 	url = https://github.com/penn-cnt/RNS_processing_toolbox
+[submodule "core_libraries/submodules/nibabel"]
+	path = core_libraries/submodules/nibabel
+	url = https://github.com/nipy/nibabel.git
