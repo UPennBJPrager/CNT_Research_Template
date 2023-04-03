@@ -28,3 +28,6 @@
 [submodule "core_libraries/submodules/nibabel"]
 	path = core_libraries/submodules/nibabel
 	url = https://github.com/nipy/nibabel.git
+[submodule "core_libraries/submodules/dipy"]
+	path = core_libraries/submodules/dipy
+	url = https://github.com/dipy/dipy.git

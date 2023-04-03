@@ -39,3 +39,8 @@ Brittnay Scheid, University of Pennsylvania
 ### Author(s)
 ### Repository Link
 [Nibabel](https://github.com/nipy/nibabel)
+
+## Dipy
+### Author(s)
+### Repository Link
+[Dipy](https://github.com/dipy/dipy)
