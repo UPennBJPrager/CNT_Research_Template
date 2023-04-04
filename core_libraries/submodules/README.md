@@ -44,3 +44,9 @@ Brittnay Scheid, University of Pennsylvania
 ### Author(s)
 ### Repository Link
 [Dipy](https://github.com/dipy/dipy)
+
+## NetworkX
+### Author(s)
+Aric Hagberg,Dan Schult,Pieter Swart
+### Repository Link
+[NetworkX](https://github.com/networkx/networkx)
