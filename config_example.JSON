@@ -1,0 +1,29 @@
+{
+	"paths": {
+		"RNS_RAW_Folder": "/Path/to/data/folders/UPenn IRB xxxxxx - RNS System Data EXTERNAL #PHI",
+		"RNS_DATA_Folder": "/Path/to/MAT/file/folder/RNS_parsed_DATA_Files"
+	},
+	"boxKeys": {
+		"CLIENT_ID": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+		"CLIENT_SECRET": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+		"CLIENT_ACCESS_TOKEN": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+		"Folder_ID": "xxxxxxxx"
+	},
+	"institution": "UPenn",
+	"patients": [
+		{
+			"ID": "HUP1234",
+			"PDMS_ID": "1234567",
+			"Initials": "AA",
+			"pnsv_dataset": "N:dataset:xxxxxx-xxxx-xxxx-xxx-xxxxxxxxxxxxxx",
+			"pnsv_package": "N:dataset:xxxxxx-xxxx-xxxx-xxx-xxxxxxxxxxxxxx",
+		}, 
+		{
+			"ID": "HUP9876",
+			"PDMS_ID": "9876543",
+			"Initials": "BB",
+			"pnsv_dataset": "N:dataset:xxxxxx-xxxx-xxxx-xxx-xxxxxxxxxxxxxx",
+			"pnsv_package": "N:dataset:xxxxxx-xxxx-xxxx-xxx-xxxxxxxxxxxxxx",
+		}
+	]
+}
