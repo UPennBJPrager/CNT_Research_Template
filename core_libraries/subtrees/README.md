@@ -50,3 +50,9 @@ Brittnay Scheid, University of Pennsylvania
 Aric Hagberg,Dan Schult,Pieter Swart
 ### Repository Link
 [NetworkX](https://github.com/networkx/networkx)
+
+## xcp_d
+### Author(s)
+Satterthwaite Lab at University of Pennsylvania, Developmental Cognition and Neuroimaging Lab at University of Minnesota
+### Repository Link
+[xcp_d](https://github.com/PennLINC/xcp_d)
