@@ -1,5 +1,6 @@
-name: CNT_ENVIRON_EEG
+name: CNT_ENVIRON_IMAGING
 channels:
+- https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/public
 - defaults
 dependencies:
 - numpy
@@ -10,11 +11,12 @@ dependencies:
 - seaborn
 - tabulate
 - numba<0.54
+- nibabel
 - pip:
-  - pennprov
-  - epycom
-  - ./pipeline_ieeg-0.0.1-py3-none-any.whl
-  - ./ieeg-1.6-py3-none-any.whl
-  - ./CNT_research_tools-0.0.1-py3-none-any.whl
   - ./CNT_unit_tests-0.0.1-py3-none-any.whl
+  - nipype
+  - niworkflows
+  - antpsyx
+  - tensorflow
+  - antspynet
 
