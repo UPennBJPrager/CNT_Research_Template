@@ -11,9 +11,11 @@ dependencies:
 - seaborn
 - tabulate
 - numba<0.54
-- nibabel
+- pip
 - pip:
+  - ./bctpy-0.6.0-py3-none-any.whl
   - ./CNT_unit_tests-0.0.1-py3-none-any.whl
+  - nibabel
   - nipype
   - niworkflows
   - antpsyx
