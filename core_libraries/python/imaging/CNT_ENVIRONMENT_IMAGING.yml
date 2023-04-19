@@ -3,6 +3,7 @@ channels:
 - https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/public
 - defaults
 dependencies:
+- python >=3.8
 - numpy
 - scipy
 - pandas
@@ -18,7 +19,8 @@ dependencies:
   - nibabel
   - nipype
   - niworkflows
-  - antpsyx
   - tensorflow
+  - antspyx
   - antspynet
-
+  - fmriprep
+  - git+https://github.com/pennlinc/xcp_d.git
