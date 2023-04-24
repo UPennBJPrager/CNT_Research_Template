@@ -31,3 +31,6 @@ This environment can be activated using:
 
 > conda activate fsal
 
+## Dockers
+
+Lorem Ipsum.
