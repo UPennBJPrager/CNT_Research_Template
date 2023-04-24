@@ -33,4 +33,8 @@ This environment can be activated using:
 
 ## Dockers
 
-Lorem Ipsum.
+### FSL
+TBD
+
+### FastSurfer
+For more information, please visit: [FastSurfer Docker](https://github.com/Deep-MI/FastSurfer/tree/stable/Docker)
