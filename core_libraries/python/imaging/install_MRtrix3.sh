@@ -53,6 +53,7 @@ eigenmajor=3
 eigenminor=2
 eigenfix=8
 
+:<<'comment'
 if command -v eigen; then
     version=$(eigen --version | sed 's/^[^ ]* //')
     major=$(echo $version | cut -d '.' -f 1)
@@ -74,3 +75,39 @@ else
     exit
 fi
 echo "eigen requirements met."
+comment
+
+echo "Is Eigen >=$eigenmajor.$eigenminor.$eigenfix installed? Y/n"
+read eigeninput
+if [[ $eigeninput=='Y' ]]; then
+    :
+else
+    echo "Please install eigen 3.2.8+, change your default path to a supported version, or run in the correct environment."
+    exit
+fi
+
+# OpenGL minimum requirements
+openglmajor=3
+openglminor=3
+
+echo "Is OpenGL >= $openglmajor.$openglminor installed? Y/n"
+read openglinput
+if [[ $openglinput=='Y' ]]; then
+    :
+else
+    echo "Please install OpenGL >=3.3, change your default path to a supported version, or run in the correct environment."
+    exit
+fi
+
+# Qt backend requirements
+qtmajor=4
+qtminor=8
+
+echo "Is QT >= $qtmajor.$qtminor installed? Y/n"
+read qtinput
+if [[ $qtinput=='Y' ]]; then
+    :
+else
+    echo "Please install QT >=4.8, change your default path to a supported version, or run in the correct environment."
+    exit
+fi

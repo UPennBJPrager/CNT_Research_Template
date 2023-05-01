@@ -10,6 +10,7 @@ dependencies:
 - seaborn
 - tabulate
 - numba<0.54
+- spyder
 - pip:
   - pennprov
   - epycom
