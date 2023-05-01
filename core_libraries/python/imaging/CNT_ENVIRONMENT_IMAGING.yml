@@ -16,6 +16,9 @@ dependencies:
 - pip:
   - ./bctpy-0.6.0-py3-none-any.whl
   - ./CNT_unit_tests-0.0.1-py3-none-any.whl
+  - ./prequal_imaging-0.0.1-py3-none-any.whl
+  - ./enigma_imaging-0.0.1-py3-none-any.whl
+  - ./mrtrix3_imaging-0.0.1-py3-none-any.whl
   - nibabel
   - nipype
   - niworkflows
