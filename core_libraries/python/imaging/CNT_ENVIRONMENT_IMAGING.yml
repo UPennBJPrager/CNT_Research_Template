@@ -27,3 +27,6 @@ dependencies:
   - antspynet
   - fmriprep
   - git+https://github.com/pennlinc/xcp_d.git
+  - ./mne_bids-0.0.1-py3-none-any.whl
+  - mne
+  - mne-bids
