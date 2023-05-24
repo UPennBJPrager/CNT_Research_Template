@@ -2,8 +2,8 @@
 **/private/**
 /core_libraries/build/**
 **.DS_Store**
-/scripts/python/users/**
 /scripts/python/private/**
+/scripts/python/users/**
 
 !/user_data/README.txt
-!/scripts/python/users/README.txt
+!/scripts/python/users/README.md
